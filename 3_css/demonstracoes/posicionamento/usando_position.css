@@ -1,0 +1,45 @@
+div {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+}
+
+div img {
+  width: 100px;
+}
+
+.div_posicao_relativa {
+  width: 50%;
+  height: 200px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.div_posicao_relativa p {
+  position: absolute;
+  top: 75px;
+}
+
+.div_posicao_relativa img {
+  position: absolute;
+  width: 150px;
+  top: 30px;
+  left: 120px;
+}
+
+.div_display_flex {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_display_flex img {
+  width: 150px;
+}

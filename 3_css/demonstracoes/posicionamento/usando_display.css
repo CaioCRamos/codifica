@@ -1,0 +1,19 @@
+p {
+  color: yellow;
+}
+
+p.ex1 {
+  display: none;
+}
+
+p.ex2 {
+  display: block;
+}
+
+p.ex3 {
+  display: inline;
+}
+
+p.ex4 {
+  display: inline-block;
+}
