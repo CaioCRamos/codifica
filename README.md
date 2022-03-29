@@ -1,6 +1,6 @@
-# Base Social - Codifica V2
+# Codifica v2
 
-Bem vindo ao conteúdo base do curso de Desenvolvimento Web da Base Social.
+Bem vindo ao conteúdo do curso de Desenvolvimento Web da Base Social 💻.
 
 Aqui consolidaremos toda a base teórica e referências dos conteúdos vistos em aula. Bem como exercícios e desafios.
 
