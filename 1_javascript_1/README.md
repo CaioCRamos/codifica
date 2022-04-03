@@ -2,6 +2,8 @@
 
 * [Por que Javascript?](#por-que-javascript)
 * [Ambiente para as aulas](#ambiente-para-as-aulas)
+    * [Visual Studio Code](#visual-studio-code)
+    * [Node JS](#node-js)
 * [Revisão de conceitos](#revisão-de-conceitos)
     * [Saída de dados](#saída-de-dados)
     * [Variáveis, tipos e suas sintaxes](#variáveis-tipos-e-suas-sintaxes)
