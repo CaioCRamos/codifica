@@ -4,7 +4,6 @@
 
 ## Tabela de conteúdos
 
-<!--ts-->
 * [Termos Importantes](#termos-importantes)
     * [Instruções](#instruções)
     * [Sequências Lógicas](#sequências-lógicas)
@@ -12,6 +11,7 @@
 * [Por que Lógica de Programação é Importante?](#por-que-lógica-de-programação-é-importante)
 * [Fluxograma](#fluxograma)
     * [Objetos que normalmente compõem um fluxograma](#objetos-que-normalmente-compõem-um-fluxograma)
+    * [Para as nossas aulas](#para-as-nossas-aulas)
 * [Variáveis](#variáveis)
     * [Composição de uma variável](#composição-de-uma-variável)
     * [Momentos importantes](#momentos-importantes)
@@ -33,8 +33,6 @@
     * [Para](#para)
     * [Enquanto](#enquanto)
     * [Faça enquanto](#faça-enquanto)
-
-<!--te-->
 
 ---
 
@@ -82,7 +80,8 @@ Como a ideia do fluxograma é ser totalmente visual, são utilizadas diferentes 
 
 **Observação**: em alguns casos, dependendo das ferramentas utilizadas os objetos que compõem um fluxograma podem ser um pouco diferentes.
 
-Para as nossas aulas, utilizaremos um software chamado [Flowgorithm](http://www.flowgorithm.org/index.html). Sua instalação é bastante simples e direta.
+### Para as nossas aulas
+Utilizaremos um software chamado [Flowgorithm](http://www.flowgorithm.org/index.html). Sua instalação é bastante simples e direta.
 
 ---
 
