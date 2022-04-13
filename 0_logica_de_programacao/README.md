@@ -69,11 +69,16 @@ Ou até mesmo:
 
 É uma maneira visual e simplificada de representar um processo, um fluxo de trabalho, uma ideia ou um algoritmo.
 
-![Exemplo fluxograma](https://3.bp.blogspot.com/-_OUeVCY_7u8/UCuxAWksElI/AAAAAAAAANg/8qwubFvLoUg/s1600/fluxograma+da+bagaca.JPG)
+<P align="center">
+    <img src="https://3.bp.blogspot.com/-_OUeVCY_7u8/UCuxAWksElI/AAAAAAAAANg/8qwubFvLoUg/s1600/fluxograma+da+bagaca.JPG">
+</p>
+
 
 Como a ideia do fluxograma é ser totalmente visual, são utilizadas diferentes estruturas e cada uma delas tem uma função, para que ao bater o olho seja fácil de entender o que está acontecendo.
 
-![Outro exemplo fluxograma](https://upload.wikimedia.org/wikipedia/commons/4/46/LampFlowchart_pt.svg)
+<P align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/LampFlowchart_pt.svg">
+</p>
 
 ### Objetos que normalmente compõem um fluxograma
 
@@ -85,7 +90,9 @@ Como a ideia do fluxograma é ser totalmente visual, são utilizadas diferentes 
 * **Chamada** - bloco para utilização de funções;
 * **Enquanto**, **Para** e **Fazer** - blocos para estruturas de repetição.
 
-![Objetos que compõem um fluxograma](imagens/flowgorithm_commands.jpg)
+<P align="center">
+    <img src="imagens/flowgorithm_commands.jpg">
+</p>
 
 **Observação**: A imagem acima mostra as estruturas existentes no programa que utilizaremos em aula, porém, dependendo das ferramentas utilizadas os objetos que compõem um fluxograma podem ser um pouco diferentes.
 
@@ -93,7 +100,10 @@ Como a ideia do fluxograma é ser totalmente visual, são utilizadas diferentes 
 Utilizaremos um software chamado [Flowgorithm](http://www.flowgorithm.org/index.html). Sua instalação é bastante simples e direta.
 
 Abaixo, uma imagem que mostra o Flowgorithm em funcionamento. Na janela maior temos a "escrita" do nosso programa e na menor temos ele sendo executado:
-![Flowgorithm](imagens/flowgorithm.jpg)
+
+<P align="center">
+    <img src="imagens/flowgorithm.jpg">
+</p>
 
 ---
 
@@ -281,7 +291,9 @@ Alguns exemplos de condições que podem fazer uma aplicação rodar pra sempre 
 - `enquanto 1 == 1` ou qualquer outra comparação que sempre será verdade
 - `enquanto true`
 
-![WHILE True](imagens/while_true.jpg)
+<P align="center">
+    <img src="imagens/while_true.jpg">
+</p>
 
 ### Faça enquanto
 ...

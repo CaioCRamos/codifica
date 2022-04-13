@@ -1,5 +1,9 @@
 # Codifica v2
 
+<P align="center">
+    <img src="assets/logo_base_social.jpg" width=150>
+</p>
+
 Bem vindo ao conteúdo do curso de Desenvolvimento Web da Base Social 💻.
 
 Aqui consolidaremos toda a base teórica e referências dos conteúdos vistos em aula. Bem como exercícios e desafios.
