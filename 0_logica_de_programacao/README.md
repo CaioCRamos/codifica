@@ -21,6 +21,7 @@
     * [Texto](#texto)
     * [Lógico ou Booleano](#lógico-ou-booleano)
     * [Data e Hora](#data-e-hora)
+* [Concatenação](#concatenação)
 * [Operadores Matemáticos](#operadores-matemáticos)
 * [Operadores Relacionais](#operadores-relacionais)
 * [Operadores Lógicos](#operadores-lógicos)
@@ -83,6 +84,9 @@ Como a ideia do fluxograma é ser totalmente visual, são utilizadas diferentes 
 ### Para as nossas aulas
 Utilizaremos um software chamado [Flowgorithm](http://www.flowgorithm.org/index.html). Sua instalação é bastante simples e direta.
 
+Abaixo, uma imagem que mostra o Flowgorithm em funcionamento. Na janela maior temos a "escrita" do nosso programa e na menor temos ele sendo executado:
+![Flowgorithm](imagens/flowgorithm.jpg)
+
 ---
 
 ## Variáveis
@@ -142,21 +146,28 @@ Algumas linguagens tem tipos de dados específicos para Data, Hora ou até mesmo
 
 ---
 
+## Concatenação
+É a operação de juntar ou "somar" textos.
+Dependendo da linguagem ou ferramenta pode ser representada pelo sinal `+` ou `&` *(esse é o modo de fazer no Flowgorithm)*.
+
+Exemplo: Imagine que no seu código exista uma variável `nome = "caio"` e outra `sobrenome = "ramos"`, como resultado você quer apresentar o nome completo, uma possibilidade seria: 
+* `nomeCompleto = nome + sobrenome` ou
+* `nomeCompleto = nome & sobrenome` *(esse é o modo de fazer no Flowgorithm)*
+
+Porém para ambos os casos, o resultado será `caioramos`, por que isso acontece? Por que apenas juntamos as duas variáveis, sem acrescentar um espaço em branco entre elas, o mais correto seria:
+* `nomeCompleto = nome + " " + sobrenome` ou
+* `nomeCompleto = nome & " " & sobrenome` *(esse é o modo de fazer no Flowgorithm)*
+
+Assim, o resultado será `caio ramos`.
+
 ## Operadores Matemáticos
-Servem para realizar operações matemáticas com valores ou variáveis, praticamente da mesma forma em que usamos nas calculadoras.
+Servem para realizar operações matemáticas com **valores numéricos** ou **variáveis numéricas**, praticamente da mesma forma em que usamos nas calculadoras.
 
 - Soma `+`  
 - Subtração `-`  
 - Multiplicação `*`  
 - Divisão `/`  
 - Mod (resto de uma divisão) `%`
-
-Exemplo:
-```javascript
-// Neste exemplo estamos criando a variável resultado, 
-// que é igual a somatória da variável idade e do valor 5.
-var resultado = idade + 5;
-```
 
 Outras operações não listadas aqui como potenciação e radiciação também existem, entretanto seu símbolo ou forma de excecutar depende de cada linguagem de programação.
 
@@ -172,14 +183,6 @@ São utilizados para realizar comparações entre **duas** variáveis ou valores
 - Maior ou igual `>=`  
 - Menor `<`  
 - Menor ou igual `<=`  
-
-Exemplo:
-```javascript
-// Neste exemplo estamos criando a variável resultado, 
-// que será positiva se o valor da variável idade for MAIOR OU IGUAL a 18
-// e negativa se o valor da variável idade for menor que 18.
-var resultado = idade >= 18;
-```
 
 --- 
 
