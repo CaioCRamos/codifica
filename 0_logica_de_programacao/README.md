@@ -77,9 +77,17 @@ Como a ideia do fluxograma é ser totalmente visual, são utilizadas diferentes 
 
 ### Objetos que normalmente compõem um fluxograma
 
-![Objetos que compõem um fluxograma](https://2.bp.blogspot.com/-YyWpBCtTEoM/UwKYwijQQ1I/AAAAAAAAAnE/5NFKp9-ux70/s1600/DIAGRAMAS+(2).gif)
+* **Entrada** - utilizado para receber valores digitados pelo usuário;
+* **Saída** - utilizado para mostrar mensagens ao usuário;
+* **Definição** - local para criação das variáveis;
+* **Atribuição** - local onde as variáveis receberão valores e operações matemáticas serão feitas;
+* **Alternativa** - bloco para estrutura condicional;
+* **Chamada** - bloco para utilização de funções;
+* **Enquanto**, **Para** e **Fazer** - blocos para estruturas de repetição.
 
-**Observação**: em alguns casos, dependendo das ferramentas utilizadas os objetos que compõem um fluxograma podem ser um pouco diferentes.
+![Objetos que compõem um fluxograma](imagens/flowgorithm_commands.jpg)
+
+**Observação**: A imagem acima mostra as estruturas existentes no programa que utilizaremos em aula, porém, dependendo das ferramentas utilizadas os objetos que compõem um fluxograma podem ser um pouco diferentes.
 
 ### Para as nossas aulas
 Utilizaremos um software chamado [Flowgorithm](http://www.flowgorithm.org/index.html). Sua instalação é bastante simples e direta.
@@ -107,7 +115,7 @@ Na programação, variáveis são compostas de modo geral por 3 partes important
 
 ### Momentos importantes
 Para trabalhar com variáveis, precisamos respeitar alguns momentos necessários:
-1. **Declaração** - momento onde a variável é criada, a partir da declaração a sua variável passa a existir. É o passo onde informamos 2 das 3 partes necessárias para uma variável, o tipo e o nome.  
+1. **Declaração** ou **Definição** - momento onde a variável é criada, a partir da declaração a sua variável passa a existir. É o passo onde informamos 2 das 3 partes necessárias para uma variável, o tipo e o nome.  
 Ex: `texto nomeEstudante` (variável `nomeEstudante` do tipo `texto`) ou `número idadeEstudante` (variável `idadeEstudante` do tipo `número`)
 2. **Atribuição** - momento onde atribuímos um valor para a variável.  
 Importante: só conseguimos atribuir valores para variáveis que já foram declaradas!  
