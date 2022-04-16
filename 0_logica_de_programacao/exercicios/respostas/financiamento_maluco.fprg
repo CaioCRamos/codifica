@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="caioc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-15 08:53:14 "/>
+        <attribute name="created" value="Y2Fpb2M7Q0FJTy1QQzsyMDIyLTA0LTE1OyIwNzo1NToxNiAiOzIxODI="/>
+        <attribute name="edited" value="Y2Fpb2M7Q0FJTy1QQzsyMDIyLTA0LTE1OyIwODo1MzoxNCAiOzE7MjI4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorVeiculo, juros, total, valorParcela" type="Real" array="False" size=""/>
+            <declare name="parcelas, anos" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor do ve&#237;culo: &quot;" newline="True"/>
+            <input variable="valorVeiculo"/>
+            <output expression="&quot;Em quantas vezes vc quer pagar?&quot;" newline="True"/>
+            <input variable="parcelas"/>
+            <assign variable="anos" expression="parcelas / 12"/>
+            <assign variable="juros" expression="0.08 * anos"/>
+            <assign variable="total" expression="valorVeiculo + (valorVeiculo * juros)"/>
+            <assign variable="valorParcela" expression="total / parcelas"/>
+            <output expression="&quot;O Total do financiamento &#233; R$: &quot; &amp; total" newline="True"/>
+            <output expression="&quot;E cada parcela ser&#225; de: R$&quot; &amp; valorParcela" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

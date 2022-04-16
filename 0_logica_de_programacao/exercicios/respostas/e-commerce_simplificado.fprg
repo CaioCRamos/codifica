@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="caioc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-15 07:34:44 "/>
+        <attribute name="created" value="Y2Fpb2M7Q0FJTy1QQzsyMDIyLTA0LTE1OyIwNzoxNzo0OCAiOzIxODU="/>
+        <attribute name="edited" value="Y2Fpb2M7Q0FJTy1QQzsyMDIyLTA0LTE1OyIwNzozNDo0NCAiOzI7MjI4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="produto" type="String" array="False" size=""/>
+            <declare name="preco, resultado" type="Real" array="False" size=""/>
+            <declare name="qtd" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o produto que vc quer comprar?&quot;" newline="True"/>
+            <input variable="produto"/>
+            <output expression="&quot;Qual o valor unit&#225;rio?&quot;" newline="True"/>
+            <input variable="preco"/>
+            <output expression="&quot;Quantos?&quot;" newline="True"/>
+            <input variable="qtd"/>
+            <assign variable="resultado" expression="preco * qtd"/>
+            <output expression="&quot;O total do seu pedido &#233;: &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
