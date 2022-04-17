@@ -2,6 +2,7 @@
 
 ## Entrada, processamento e saída
 
+### Tabela de conteúdos
 * [Simular e-commerce](#simular-e-commerce)
 * [Financiamento maluco](#financiamento-maluco)
 * [Anime ou série favorita](#anime-ou-série-favorita)

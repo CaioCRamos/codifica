@@ -2,6 +2,7 @@
 
 ## Operadores relacionais, lógicos e estrutura condicional
 
+### Tabela de conteúdos
 * [Média e aprovação](#média-e-aprovação)
 * [Login e senha](#login-e-senha)
 * [Trabalhe conosco](#trabalhe-conosco)
