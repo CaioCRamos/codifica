@@ -168,15 +168,7 @@ Algumas linguagens tem tipos de dados específicos para Data, Hora ou até mesmo
 É a operação de juntar ou "somar" textos.
 Dependendo da linguagem ou ferramenta pode ser representada pelo sinal `+` ou `&` *(esse é o modo de fazer no Flowgorithm)*.
 
-Exemplo: Imagine que no seu código exista uma variável `nome = "caio"` e outra `sobrenome = "ramos"`, como resultado você quer apresentar o nome completo, uma possibilidade seria: 
-* `nomeCompleto = nome + sobrenome` ou
-* `nomeCompleto = nome & sobrenome` *(esse é o modo de fazer no Flowgorithm)*
-
-Porém para ambos os casos, o resultado será `caioramos`, por que isso acontece? Por que apenas juntamos as duas variáveis, sem acrescentar um espaço em branco entre elas, o mais correto seria:
-* `nomeCompleto = nome + " " + sobrenome` ou
-* `nomeCompleto = nome & " " & sobrenome` *(esse é o modo de fazer no Flowgorithm)*
-
-Assim, o resultado será `caio ramos`.
+Clique [aqui](demos/concatenacao) para ver a demonstração no Flowgorithm.
 
 ## Operadores Matemáticos
 Servem para realizar operações matemáticas com **valores numéricos** ou **variáveis numéricas**, praticamente da mesma forma em que usamos nas calculadoras.
@@ -187,13 +179,17 @@ Servem para realizar operações matemáticas com **valores numéricos** ou **va
 - Divisão `/`  
 - Mod (resto de uma divisão) `%`
 
+Assim como na matemática, usamos os parênteses `()` para separar e dar prioridade a operação que queremos que seja feita primeiro.
+
 Outras operações não listadas aqui como potenciação e radiciação também existem, entretanto seu símbolo ou forma de excecutar depende de cada linguagem de programação.
+
+Clique [aqui](demos/operadores_matematicos) para ver a demonstração no Flowgorithm.
 
 --- 
 
 ## Operadores Relacionais
-São utilizados para realizar comparações entre **duas** variáveis ou valores.  
-**Importante**: O retorno de uma operação relacional é sempre um `valor booleano`, ou seja `verdadeiro` ou `falso` (`sim` ou `não`).
+São utilizados para realizar **comparações** entre **duas** variáveis ou valores.  
+**Importante**: O retorno de uma operação relacional é sempre um `valor booleano`, ou seja `true` ou `false` (`verdadeiro` ou `falso`).
 
 - Igual `==`  
 - Diferente `!=`  
@@ -201,6 +197,8 @@ São utilizados para realizar comparações entre **duas** variáveis ou valores
 - Maior ou igual `>=`  
 - Menor `<`  
 - Menor ou igual `<=`  
+
+Clique [aqui](demos/operadores_relacionais) para ver a demonstração no Flowgorithm.
 
 --- 
 
@@ -239,12 +237,28 @@ Tabela da verdade para o `OU (||)`:
 ---
 
 ## Condicionais
+Vimos que os [Operadores Relacionais](#operadores-relacionais) descritos acima nos permitem comparar valores e obter um valor `positivo` ou `negativo` como resposta, vimos também que com os [Operadores Lógicos](#operadores-lógicos) podemos realizar multiplas comparações ao mesmo tempo.
+
+Agora, utilizaremos as **Estruturas Condicionais** para tomar decisões baseadas no resultado destas comparações.
+
+Ao realizar esta estrutura temos sempre dois resultados possíveis:
+
+1. Quando nossa comparação dá certo
+2. Quando nossa comparação dá errado
 
 ### Se
-...
+O `Se` é a estrutura focada no resultado positivo, ou seja, o que acontecerá se o resultado da nossa comparação for verdadeiro.
 
 ### Senão 
-...
+Já o `Senão` é utilizado como **Plano B**, ou seja, o que queremos que nosso sistema faça quando o resultado da comparação for negativo.  
+
+Alguns avisos importantes:
+1. No Flowgorithm usaremos o comando `Alternativa` para as estruturas condicionais.
+2. Essa é a primeira estrutura de **bloco de comandos** que estamos aprendendo, ou seja, podemos incluir vários comandos dentro do resultado positivo e do negativo.
+3. **Não somos obrigados** a utilizar o `Senão`, pois nem sempre queremos que o sistema faça algo quando o resultado da comparação for negativo. Para isso, basta deixarmos o lado do resultado negativo em branco.
+4. Podemos incluir quantas estruturas condicionais quiseremos dentro de outras estruturas condicionais sem problema nenhum, tanto no `Se` quanto no `Senão`.
+
+Clique [aqui](demos/estruturas_condicionais) para ver a demonstração no Flowgorithm.
 
 ---
 
