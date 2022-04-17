@@ -3,7 +3,7 @@
 Você precisa solicitar ao usuário que ele digite o primeiro e o últmo nome, após isso, deve apresentar como resultado o nome completo.
 
 <P align="center">
-    <img src="concatenacao.png">
+    <img src="../assets/demo_concatenacao.png">
 </p>
 
 Repare que entre a concatenação das variáveis `nome` e `sobrenome` foi adicionado `& " " &`.  

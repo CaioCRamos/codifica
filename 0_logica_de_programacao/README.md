@@ -91,7 +91,7 @@ Como a ideia do fluxograma é ser totalmente visual, são utilizadas diferentes 
 * **Enquanto**, **Para** e **Fazer** - blocos para estruturas de repetição.
 
 <P align="center">
-    <img src="imagens/flowgorithm_commands.jpg">
+    <img src="assets/flowgorithm_commands.jpg">
 </p>
 
 **Observação**: A imagem acima mostra as estruturas existentes no programa que utilizaremos em aula, porém, dependendo das ferramentas utilizadas os objetos que compõem um fluxograma podem ser um pouco diferentes.
@@ -102,7 +102,7 @@ Utilizaremos um software chamado [Flowgorithm](http://www.flowgorithm.org/index.
 Abaixo, uma imagem que mostra o Flowgorithm em funcionamento. Na janela maior temos a "escrita" do nosso programa e na menor temos ele sendo executado:
 
 <P align="center">
-    <img src="imagens/flowgorithm.jpg">
+    <img src="assets/flowgorithm.png">
 </p>
 
 ---
@@ -306,7 +306,7 @@ Alguns exemplos de condições que podem fazer uma aplicação rodar pra sempre 
 - `enquanto true`
 
 <P align="center">
-    <img src="imagens/while_true.jpg">
+    <img src="assets/while_true.jpg">
 </p>
 
 ### Faça enquanto

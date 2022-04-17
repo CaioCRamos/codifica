@@ -5,5 +5,5 @@ Imagine que no seu sistema você precisa saber se o usuário que está tentando 
 Podemos usar o `>=` (maior ou igual) para nos ajudar a entender se o usuário já tem 18 anos ou mais.
 
 <P align="center">
-    <img src="operadores_relacionais.png">
+    <img src="../assets/demo_operadores_relacionais.png">
 </p>
