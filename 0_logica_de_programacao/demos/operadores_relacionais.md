@@ -7,3 +7,5 @@ Podemos usar o `>=` (maior ou igual) para nos ajudar a entender se o usuário j�
 <P align="center">
     <img src="../assets/demo_operadores_relacionais.png">
 </p>
+
+Na demonstração acima não está o código completo, pois ainda não aprendemos estruturas condicionais, porém podemos ver que o resultado da nossa validação foi positivo.

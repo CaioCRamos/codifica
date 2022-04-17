@@ -26,7 +26,7 @@
 * [Operadores Relacionais](#operadores-relacionais)
 * [Operadores Lógicos](#operadores-lógicos)
     * [E](#e)
-    * [OU](#ou)
+    * [Ou](#ou)
 * [Condicionais](#condicionais)
     * [Se](#se)
     * [Senão](#senão)
@@ -191,12 +191,12 @@ Clique [aqui](demos/operadores_matematicos.md) para ver a demonstração no Flow
 São utilizados para realizar **comparações** entre **duas** variáveis ou valores.  
 **Importante**: O retorno de uma operação relacional é sempre um `valor booleano`, ou seja `true` ou `false` (`verdadeiro` ou `falso`).
 
-- Igual `==`  
-- Diferente `!=`  
-- Maior `>`  
-- Maior ou igual `>=`  
-- Menor `<`  
-- Menor ou igual `<=`  
+- Igual a `==`  
+- Diferente de `!=`  
+- Maior que `>`  
+- Maior ou igual que `>=`  
+- Menor que `<`  
+- Menor ou igual que `<=`  
 
 Clique [aqui](demos/operadores_relacionais.md) para ver a demonstração no Flowgorithm.
 
@@ -219,6 +219,8 @@ Tabela da verdade para o `E (&&)`:
 | Falso        | && | Verdadeiro   | Falso      |
 | Falso        | && | Falso        | Falso      |
 
+Clique [aqui](demos/operadores_logicos_e.md) para ver a demonstração no Flowgorithm.
+
 ### OU `(||)`
 Utilizado quando você quer usar mais do que uma comparação ao mesmo tempo e você quer que alguma das partes da sua comparação seja verdade para prosseguir.
 
@@ -233,6 +235,8 @@ Tabela da verdade para o `OU (||)`:
 | Verdadeiro   | \|\| | Falso        | Verdadeiro |
 | Falso        | \|\| | Verdadeiro   | Verdadeiro |
 | Falso        | \|\| | Falso        | Falso      |
+
+Clique [aqui](demos/operadores_logicos_ou.md) para ver a demonstração no Flowgorithm.
 
 ---
 

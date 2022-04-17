@@ -11,7 +11,8 @@ Aqui consolidaremos toda a base teórica e referências dos conteúdos vistos em
 Ao longo de todo o curso aprenderemos sobre:
 
 * [Lógica de Programação](0_logica_de_programacao/README.md)
-    * [Exercícios](0_logica_de_programacao/exercicios/README.md)
+    * [Exercícios entrada, processamento e saída](0_logica_de_programacao/exercicios/entrada_processamento_saida.md)
+    * [Exercícios operadores relacionais, lógicos e estrutura condicional](0_logica_de_programacao/exercicios/operadores_relacionais_logicos_condicional.md)
 <!-- * [Javascript I](1_javascript_1/README.md) -->
 <!-- * [HTML](2_html/README.md) -->
 <!-- * [CSS](3_css/README.md) -->
