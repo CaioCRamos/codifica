@@ -2,6 +2,10 @@
 
 ## Entrada, processamento e saída
 
+* [Simular e-commerce](#simular-e-commerce)
+* [Financiamento maluco](#financiamento-maluco)
+* [Anime ou série favorita](#anime-ou-série-favorita)
+
 ### Simular e-commerce
 Estamos trabalhando em um sistema de compras fictício. Para um cliente fazer uma compra é necessário:
 

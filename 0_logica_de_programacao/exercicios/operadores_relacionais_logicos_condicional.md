@@ -2,6 +2,10 @@
 
 ## Operadores relacionais, lógicos e estrutura condicional
 
+* [Média e aprovação](#média-e-aprovação)
+* [Login e senha](#login-e-senha)
+* [Trabalhe conosco](#trabalhe-conosco)
+
 ### Média e aprovação
 Faça um sistema bem simples que receba as 4 notas bimestrais de uma aluno, pode ser apenas para a matéria que você mais gosta.
 
