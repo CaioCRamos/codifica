@@ -168,7 +168,7 @@ Algumas linguagens tem tipos de dados específicos para Data, Hora ou até mesmo
 É a operação de juntar ou "somar" textos.
 Dependendo da linguagem ou ferramenta pode ser representada pelo sinal `+` ou `&` *(esse é o modo de fazer no Flowgorithm)*.
 
-Clique [aqui](demos/concatenacao) para ver a demonstração no Flowgorithm.
+Clique [aqui](demos/concatenacao.md) para ver a demonstração no Flowgorithm.
 
 ## Operadores Matemáticos
 Servem para realizar operações matemáticas com **valores numéricos** ou **variáveis numéricas**, praticamente da mesma forma em que usamos nas calculadoras.
@@ -183,7 +183,7 @@ Assim como na matemática, usamos os parênteses `()` para separar e dar priorid
 
 Outras operações não listadas aqui como potenciação e radiciação também existem, entretanto seu símbolo ou forma de excecutar depende de cada linguagem de programação.
 
-Clique [aqui](demos/operadores_matematicos) para ver a demonstração no Flowgorithm.
+Clique [aqui](demos/operadores_matematicos.md) para ver a demonstração no Flowgorithm.
 
 --- 
 
@@ -198,7 +198,7 @@ São utilizados para realizar **comparações** entre **duas** variáveis ou val
 - Menor `<`  
 - Menor ou igual `<=`  
 
-Clique [aqui](demos/operadores_relacionais) para ver a demonstração no Flowgorithm.
+Clique [aqui](demos/operadores_relacionais.md) para ver a demonstração no Flowgorithm.
 
 --- 
 
@@ -258,7 +258,7 @@ Alguns avisos importantes:
 3. **Não somos obrigados** a utilizar o `Senão`, pois nem sempre queremos que o sistema faça algo quando o resultado da comparação for negativo. Para isso, basta deixarmos o lado do resultado negativo em branco.
 4. Podemos incluir quantas estruturas condicionais quiseremos dentro de outras estruturas condicionais sem problema nenhum, tanto no `Se` quanto no `Senão`.
 
-Clique [aqui](demos/estruturas_condicionais) para ver a demonstração no Flowgorithm.
+Clique [aqui](demos/estruturas_condicionais.md) para ver a demonstração no Flowgorithm.
 
 ---
 
