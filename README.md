@@ -15,6 +15,7 @@ Ao longo de todo o curso aprenderemos sobre:
 * Prática / exercícios
     * [Entrada, processamento e saída](0_logica_de_programacao/exercicios/entrada_processamento_saida.md)
     * [Operadores relacionais, lógicos e estrutura condicional](0_logica_de_programacao/exercicios/operadores_relacionais_logicos_condicional.md)
+    * [Loops](0_logica_de_programacao/exercicios/loops.md)
 
 <!-- * [Javascript I](1_javascript_1/README.md) -->
 <!-- * [HTML](2_html/README.md) -->
