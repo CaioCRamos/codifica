@@ -13,6 +13,9 @@ Quer deixar esse exercício ainda mais interessante? O que acontece se o primeir
 ### Todos os ímpares
 Vamos escrever um programa que mostre na tela todos os números **ímpares** entre 0 e 50.
 
+### Exercício Bônus de última hora!!!!
+Vamos escrever um programa que mostre na tela todos os números **primos** entre 1 e 100.
+
 ## Enquanto (while)
 
 ### Até sair
