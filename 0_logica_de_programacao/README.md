@@ -293,6 +293,8 @@ Este comando normalmente tem a seguinte estrutura:
 
 Exemplo: Imagine que você está enviando 10 imagens em um grupo do Whatsapp, nesse caso o Whatsapp sabe exatamente quantas vezes ele precisa executar o comando para enviar imagem. Ele começa na primeira e vai enviando de 1 em 1, até concluir as 10 imagens.
 
+Clique [aqui](demos/loops_for.md.md) para ver a demonstração no Flowgorithm.
+
 ### Enquanto
 Por outro lado, nem sempre é fácil determinar quantas vezes será necessário executar algo.
 
@@ -313,5 +315,4 @@ Alguns exemplos de condições que podem fazer uma aplicação rodar pra sempre 
     <img src="assets/while_true.jpg">
 </p>
 
-### Faça enquanto
-...
+Clique [aqui](demos/loops_while.md.md.md) para ver a demonstração no Flowgorithm.
