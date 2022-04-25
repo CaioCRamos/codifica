@@ -9,11 +9,11 @@
     * [Variáveis, tipos e suas sintaxes](#variáveis-tipos-e-suas-sintaxes)
     * [Entrada de dados](#entrada-de-dados)
     * [Concatenação](#concatenação)
+    * [Conversão de valores](#conversão-de-valores)
     * [Operadores matemáticos](#operadores-matemáticos)
     * [Operadores relacionais](#operadores-relacionais)
     * [Operadores lógicos](#operadores-lógicos)
-    * [Conversão de variáveis](#conversão-de-variáveis)
-    * [if / else](#if-else)
+    * [if / else](#if-e-else)
     * [for](#for)
     * [while](#while)
     * [Funções](#funções)
@@ -47,7 +47,7 @@ alert("Olá mundo!");
 ```
 
 ### Variáveis, tipos e suas sintaxes
-No Javascript, diferentemente de outras linguagens de programação, os tipos das variáveis **não são definidos** no momento da criação, eles são definidos automaticamente no momento em que o valor é atribuído. Por isso o Javascript é conhecido por possuir uma tipagem dinâmmica.
+No Javascript, diferentemente de outras linguagens de programação, os tipos das variáveis **não são definidos** no momento da criação, eles são definidos automaticamente no momento em que o valor é atribuído. Por isso o Javascript é conhecido por possuir uma tipagem dinâmica.
 
 Na criação usamos o prefixo `var` antes do nome da variável, mais pra frente veremos que existem outros prefixos.
 
@@ -79,6 +79,24 @@ O sinal de `+` é utilizado para realizar concatenações.
 ```javascript
 var nomeCompleto = nome + " " + sobrenome;
 ```
+
+### Conversão de valores
+Se possuirmos variáveis do tipo `string` contendo valores numéricos e quisermos converter estes valores para os tipos corretos, tais como:
+* `int` = números inteiros
+* `float` = números reais (com casas decimais)
+
+Podemos utilizar as funções:
+```javascript
+// inteiro
+var valor = "10";
+var resultado = parseInt(valor);
+
+// decimaal
+var valor = "10.5";
+var resultado = parseFloat(valor);
+```
+
+Se o valor da conversão não for possível, o valor `NaN` (**not a number** ou **não é um número**) será retornado.
 
 ### Operadores matemáticos
 ```javascript
@@ -127,18 +145,42 @@ var resultado2 = numero === "10"; //agora o resultado é false
 ```
 
 ### Operadores lógicos
+```javascript
+// E
+var creditoAprovado = (idade >= 18) && (empregado == true);
+
+// OU
+var resultadoPositivo = (resposta == "sim") || (resposta == "N/A");
+```
+
+### If e Else
+```javascript
+// apenas Se
+if (idade >= 18) {
+    // faz algo se for verdade
+}
+
+// se e senão
+if (idade >= 18) {
+    // faz algo se for verdade
+} else {
+    // faz algo se for falso
+}
+
+// se senão se
+if (idade >= 18) {
+    // faz algo se a primeira comparação for verdade
+} else if (outraComparacao == true){
+    // faz algo se a segunda comparação for verdade
+} else {
+    // faz algo se for falso
+}
+```
+
+### For
 ...
 
-### Conversão de variáveis
-...
-
-### `if` `else`
-...
-
-### `for`
-...
-
-### `while`
+### While
 ...
 
 ### Funções

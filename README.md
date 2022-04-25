@@ -19,6 +19,8 @@ Ao longo de todo o curso aprenderemos sobre:
 
 ## Javascript I
 * [Material de apoio](1_javascript_1/README.md)
+* Desafios
+    * [Salário Líquido](1_javascript_1/desafios/salario_liquido.md)
 
 <!-- * [HTML](2_html/README.md) -->
 <!-- * [CSS](3_css/README.md) -->
