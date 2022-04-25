@@ -13,12 +13,12 @@
     * [Operadores matemáticos](#operadores-matemáticos)
     * [Operadores relacionais](#operadores-relacionais)
     * [Operadores lógicos](#operadores-lógicos)
-    * [if / else](#if-e-else)
-    * [for](#for)
-    * [while](#while)
+    * [If e Else](#if-e-else)
+    * [For](#for)
+    * [While](#while)
+    * [Arrays](#arrays)
     * [Funções](#funções)
     * [Var, Let, Const](#var-let-const)
-    * [Arrays](#arrays)
 
 
 ## Por que Javascript?
@@ -158,22 +158,32 @@ var resultadoPositivo = (resposta == "sim") || (resposta == "N/A");
 // apenas Se
 if (idade >= 18) {
     // faz algo se for verdade
+    ...
 }
+```
 
-// se e senão
+```javascript
+// Se e Senão
 if (idade >= 18) {
     // faz algo se for verdade
+    ...
 } else {
     // faz algo se for falso
+    ...
 }
+```
 
-// se senão se
+```javascript
+// Se, Senão Se, Senão
 if (idade >= 18) {
     // faz algo se a primeira comparação for verdade
+    ...
 } else if (outraComparacao == true){
     // faz algo se a segunda comparação for verdade
+    ...
 } else {
     // faz algo se for falso
+    ...
 }
 ```
 
@@ -183,11 +193,11 @@ if (idade >= 18) {
 ### While
 ...
 
+### Arrays
+...
+
 ### Funções
 ...
 
 ### Var, Let, Const
-...
-
-### Arrays
 ...
