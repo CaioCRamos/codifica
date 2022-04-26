@@ -17,7 +17,7 @@ Ao longo de todo o curso aprenderemos sobre:
     * [Operadores relacionais, lógicos e estrutura condicional](0_logica_de_programacao/exercicios/operadores_relacionais_logicos_condicional.md)
     * [Loops](0_logica_de_programacao/exercicios/loops.md)
 
-## Javascript I
+## Javascript I - Lógica na Prática
 * [Material de apoio](1_javascript_1/README.md)
 * Desafios
     * [Salário Líquido](1_javascript_1/desafios/salario_liquido.md)

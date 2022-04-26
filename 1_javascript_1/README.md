@@ -1,12 +1,12 @@
-# Javascript I - Algoritmos
+# Javascript I - Lógica na Prática
 
 ## Tabela de conteúdos
 * [Por que Javascript?](#por-que-javascript)
 * [Ambiente para as aulas](#ambiente-para-as-aulas)
     * [Visual Studio Code](#visual-studio-code)
 * [Revisão de conceitos](#revisão-de-conceitos)
-    * [Saída de dados](#saída-de-dados)
     * [Variáveis, tipos e suas sintaxes](#variáveis-tipos-e-suas-sintaxes)
+    * [Saída de dados](#saída-de-dados)
     * [Entrada de dados](#entrada-de-dados)
     * [Concatenação](#concatenação)
     * [Conversão de valores](#conversão-de-valores)
@@ -38,13 +38,8 @@ O **Visual Studio Code** ou **VSCode** foi escolhido por ser gratuito, bastante 
 E [aqui](https://youtube.com/playlist?list=PLLvkn_w48B4GALLJ0N7FbXqFMMtKGG7_p) para assistir uma playlist com várias dicas.
 
 ## Revisão de conceitos
-
-### Saída de dados
-Para mostrar mensagens aos usuários, podemos usar o comando `alert`, passando a `string` que devemos mostrar.
-
-```javascript
-alert("Olá mundo!");
-```
+Esta página tem o intuito de mostrar como aplicamos no Javascript os conceitos de lógica de programação e estruturas já aprendidos.
+Por isso aqui seremos mais práticos, mostrando exemplos de código, mas não se aprofundando na teoria. Se você chegou até aqui e não sabe como uma variável funciona ou para que utilizamos estruturas condicionais, sugiro que volte e leia a base [teórica](../0_logica_de_programacao/README.md).
 
 ### Variáveis, tipos e suas sintaxes
 No Javascript, diferentemente de outras linguagens de programação, os tipos das variáveis **não são definidos** no momento da criação, eles são definidos automaticamente no momento em que o valor é atribuído. Por isso o Javascript é conhecido por possuir uma tipagem dinâmica.
@@ -61,6 +56,13 @@ nome = "Nome do aluno";
 
 var idade = 18;
 var casado = false;
+```
+
+### Saída de dados
+Para mostrar mensagens aos usuários, podemos usar o comando `alert`, passando a `string` que devemos mostrar.
+
+```javascript
+alert("Olá mundo!");
 ```
 
 ### Entrada de dados
@@ -97,6 +99,8 @@ var resultado = parseFloat(valor);
 ```
 
 Se o valor da conversão não for possível, o valor `NaN` (**not a number** ou **não é um número**) será retornado.
+
+Links de referência completa para o [parseInt](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt) e [parseFloat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat).
 
 ### Operadores matemáticos
 ```javascript
@@ -154,6 +158,8 @@ var resultadoPositivo = (resposta == "sim") || (resposta == "N/A");
 ```
 
 ### If e Else
+[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else) para referência completa.
+
 ```javascript
 // apenas Se
 if (idade >= 18) {
@@ -188,13 +194,42 @@ if (idade >= 18) {
 ```
 
 ### For
-...
+[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for) para referência completa.
+
+```javascript
+// Um comando for que dará 10 voltas, 
+// começando no 0 e indo até o 9,
+// de maneira incremental
+for(var contador = 0; contador < 10; contador ++) {
+    // faz alguma coisa
+}
+```
+
+Atenção para as partes que compõem o `for`, separadas por `;`
+```javascript
+// declaração da variável que controla o número da voltas
+var contador = 0
+
+// condição para fazer o for terminar
+contador < 10
+
+// configuração para que o for funcione de forma incremental
+contador ++
+```
 
 ### While
-...
+[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while) para referência completa.
+
+```javascript
+// Enquanto o valorDigitado for diferente de "sair"
+// esse comando continuará executando
+while(valorDigitado != "sair") {
+    // faz alguma coisa
+}
+```
 
 ### Arrays
-...
+[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array) para referência completa.
 
 ### Funções
 ...
