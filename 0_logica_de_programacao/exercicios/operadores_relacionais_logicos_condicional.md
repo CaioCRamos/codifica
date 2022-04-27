@@ -8,7 +8,7 @@
 * [Trabalhe conosco](#trabalhe-conosco)
 
 ### Média e aprovação
-Faça um sistema bem simples que receba as 4 notas bimestrais de uma aluno, pode ser apenas para a matéria que você mais gosta.
+Faça um sistema bem simples que receba as 4 notas bimestrais de um aluno, pode ser apenas para a matéria que você mais gosta.
 
 Calcule a média e informe se ele foi aprovado ou não.
 

@@ -21,6 +21,7 @@ Ao longo de todo o curso aprenderemos sobre:
 * [Material de apoio](1_javascript_1/README.md)
 * Desafios
     * [Salário Líquido](1_javascript_1/desafios/salario_liquido.md)
+    * [Média e aprovação 2.0](1_javascript_1/desafios/media_e_aprovacao_v2.md)
 
 <!-- * [HTML](2_html/README.md) -->
 <!-- * [CSS](3_css/README.md) -->
