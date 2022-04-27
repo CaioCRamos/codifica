@@ -229,6 +229,39 @@ while(valorDigitado != "sair") {
 ```
 
 ### Arrays
+
+Arrays são **variáveis** capazes de armazenar multiplos valores, sem a necessidade de criar múltiplas variáveis. Eles podem ser vistos como uma lista ou listagem de valores.
+
+Se pensarmos em uma variável como uma gaveta, onde guardamos coisas lá dentro, podemos entender os Arrays como um armário inteiro, composto por infinitas gavetas. Sim, podemos guardar infinitos valores em um array.
+
+```javascript
+// criação de um Array vazio
+var cores = [];
+
+// criação de um Array com itens
+var nomes = ["caio", "tati", "joão"];
+```
+
+Mas como obter o valor da gaveta correta? Cada gaveta, ou melhor, cada item do Array possui uma posição, onde o primeiro **é sempre 0**, o segundo é 1 e assim por diante.
+
+```javascript
+//              0       1       2
+var nomes = ["caio", "tati", "joão"];
+```
+
+Então para obter o valor exato de ~~uma gaveta~~ um item do array, basta utilizarmos o número da posição.
+
+```javascript
+var nome = nomes[1]; // "tati"
+```
+
+Quando adicionamos um novo item no Array, **este sempre será adicionado no final** e para realizar esta adição basta utilizar:
+
+```javascript
+nomes.push("maria");
+// agora temos ["caio", "tati", "joão", "maria"]
+```
+
 [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array) para referência completa.
 
 ### Funções
