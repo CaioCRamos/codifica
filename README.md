@@ -24,7 +24,7 @@ Ao longo de todo o curso aprenderemos sobre:
     * [Condicionais](1_javascript_1/exercicios/condicionais.md)
     * [Loops](1_javascript_1/exercicios/loops.md)
 * 💀 Desafios
-    * [Salário Líquido](1_javascript_1/desafios/resolucoes/salario_liquido.md)
+    * [Salário Líquido](1_javascript_1/desafios/salario_liquido.md)
     * [Média e aprovação 2.0](1_javascript_1/desafios/media_e_aprovacao_v2.md)
 
 <!-- * [HTML](2_html/README.md) -->

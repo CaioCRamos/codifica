@@ -7,3 +7,8 @@ Após isso, receba todas as todas e calcule a média e informe se ele foi aprova
 Critérios:
 1. Média maior ou igual a 7 = aprovado
 2. Média menor que 7 = reprovado
+
+<!-- ### ✔️ Resolução ✔️
+```javascript
+
+``` -->
