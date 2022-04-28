@@ -1,6 +1,6 @@
-# Entrada, processamento e saída
+# Básicos
 
-## Tabela de conteúdos
+## Exercícios
 1. [Simular e-commerce](#simular-e-commerce)
 2. [Financiamento maluco](#financiamento-maluco)
 3. [Anime ou série favorita](#anime-ou-série-favorita)

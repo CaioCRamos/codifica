@@ -13,17 +13,16 @@ Ao longo de todo o curso aprenderemos sobre:
 ## Lógica de Programação
 * [Teoria](0_logica_de_programacao/README.md)
 * Exercícios
-    * [Entrada, processamento e saída](0_logica_de_programacao/exercicios/entrada_processamento_saida.md)
-    * [Operadores relacionais, lógicos e estrutura condicional](0_logica_de_programacao/exercicios/operadores_relacionais_logicos_condicional.md)
+    * [Básicos](0_logica_de_programacao/exercicios/basicos.md.md)
+    * [Condicionais](0_logica_de_programacao/exercicios/condicionais.md.md)
     * [Loops](0_logica_de_programacao/exercicios/loops.md)
 
 ## Javascript I - Lógica na Prática
 * [Material de apoio](1_javascript_1/README.md)
-* Exercícios
-    * [Entrada, processamento e saída](1_javascript_1/exercicios/entrada_processamento_saida.md)
-    * [Operadores relacionais, lógicos e estrutura condicional](1_javascript_1/exercicios/operadores_relacionais_logicos_condicional.md)
+* Exercícios resolvidos
+    * [Básicos](1_javascript_1/exercicios/basicos.md.md)
+    * [Condicionais](1_javascript_1/exercicios/condicionais.md.md)
     * [Loops](1_javascript_1/exercicios/loops.md)
-
 * Desafios
     * [Salário Líquido](1_javascript_1/desafios/resolucoes//salario_liquido.md)
     * [Média e aprovação 2.0](1_javascript_1/desafios/media_e_aprovacao_v2.md)

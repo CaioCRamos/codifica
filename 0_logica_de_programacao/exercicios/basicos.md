@@ -1,4 +1,4 @@
-# Exercícios de Lógica de Programação 
+# Básicos
 
 ## Entrada, processamento e saída
 

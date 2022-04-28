@@ -1,4 +1,12 @@
-# Para (for)
+# Loops
+
+## Exercícios
+1. [De 1 a 100](#1️⃣-de-1-a-100)
+2. [de um número a outro](#2️⃣-de-um-número-a-outro)
+3. [Todos os ímpares](#3️⃣-todos-os-ímpares)
+4. [Todos os primos](#4️⃣-todos-os-primos)
+5. [Até sair](#5️⃣-até-sair)
+6. [Enquanto houver limite](#6️⃣-enquanto-houver-limite)
 
 ## 1️⃣ De 1 a 100
 Vamos escrever um programa bem simples que mostre na tela todos os número de 1 até 100.
@@ -26,15 +34,13 @@ Vamos escrever um programa que mostre na tela todos os números **ímpares** ent
 
 ```
 
-## 4️⃣ Exercício Bônus de última hora!!!!
+## 4️⃣ Todos os primos
 Vamos escrever um programa que mostre na tela todos os números **primos** entre 1 e 100.
 
 ### ✔️ Resolução ✔️
 ```javascript
 
 ```
-
-# Enquanto (while)
 
 ## 5️⃣ Até sair
 Vamos escrever um programa que solicita ao usuário que ele digite alguma palavra ou frase, pode ser qualquer coisa, em seguida mostra o que foi digitado na tela.

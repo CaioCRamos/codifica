@@ -1,6 +1,6 @@
 # Exercícios de Lógica de Programação 
 
-## Operadores relacionais, lógicos e estrutura condicional
+## Condicionais
 
 ### Tabela de conteúdos
 * [Média e aprovação](#média-e-aprovação)
