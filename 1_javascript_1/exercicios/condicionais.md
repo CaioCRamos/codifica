@@ -1,4 +1,4 @@
-# Condicionais
+# Exercícios sobre Condicionais
 
 ## Exercícios
 1. [Média e aprovação](#1️⃣-média-e-aprovação)
@@ -16,7 +16,20 @@ Critérios:
 
 ### ✔️ Resolução ✔️
 ```javascript
+var nota1 = parseFloat(prompt("Digite a primeira nota"));
+var nota2 = parseFloat(prompt("Digite a segunda nota"));
+var nota3 = parseFloat(prompt("Digite a terceira nota"));
+var nota4 = parseFloat(prompt("Digite a quarta nota"));
 
+var media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+alert("Sua média foi " + media);
+
+if (media >= 7) {
+    alert("E você está aprovado =)");
+} else {
+    alert("E você foi reprovado =(");
+}
 ```
 
 ## 2️⃣ Login e Senha
@@ -28,7 +41,17 @@ Mostre uma mensagem informando se o login deu certo ou não.
 
 ### ✔️ Resolução ✔️
 ```javascript
+var emailCorreto = "aluno@basesocial.org";
+var senhaCorreta = "base@2022";
 
+var email = prompt("Digite seu email para entrar");
+var senha = prompt("Digite sua senha");
+
+if (email === emailCorreto && senha === senhaCorreta) {
+    alert("Seja bem vindo!");
+} else {
+    alert("Email ou senha incorretos");
+}
 ```
 
 ## 3️⃣ Trabalhe conosco
@@ -48,5 +71,21 @@ Mostre uma mensagem caso o cadastro dê certo e outra se o cadastro der errado.
 
 ### ✔️ Resolução ✔️
 ```javascript
+alert("Sejá bem vindo ao nosso sistema de Trabalhe Conosco");
 
+var idade = parseInt(prompt("Digite sua idade para começar"));
+var dispensado = prompt("Você já foi dispensado do exército?" +
+    "\nDigite Sim, Não ou N/A (caso não seja aplicável)");
+
+// aqui o .toUpperCase() deixa o valor digitado totalmente em maiúsculo,
+// assim fica mais fácil comparar, sem ter que pensar em todas as 
+// combinações possíveis: Sim, SiM, siM, etc.
+var foiDispensado = dispensado.toUpperCase() === "SIM" ||
+    dispensado.toUpperCase() === "N/A";
+
+if (idade >= 18 && foiDispensado) {
+    alert("Cadastro realizado com sucesso!");
+} else {
+    alert("Você não atende aos requisitos mínimos.");
+}
 ```

@@ -1,4 +1,4 @@
-# Básicos
+# Exercícios Básicos
 
 ## Exercícios
 1. [Simular e-commerce](#simular-e-commerce)
