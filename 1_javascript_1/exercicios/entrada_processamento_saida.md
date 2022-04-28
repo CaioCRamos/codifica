@@ -5,7 +5,7 @@
 2. [Financiamento maluco](#financiamento-maluco)
 3. [Anime ou série favorita](#anime-ou-série-favorita)
 
-## :one: Simular e-commerce
+## 1️⃣ Simular e-commerce
 Estamos trabalhando em um sistema de compras fictício. Para um cliente fazer uma compra é necessário:
 
 1. Digitar o nome do produto que está comprando
@@ -14,7 +14,7 @@ Estamos trabalhando em um sistema de compras fictício. Para um cliente fazer um
 
 Nosso programa deve mostrar uma mensagem final mostrando o valor total do pedido.
 
-### :heavy_check_mark: Resolução :heavy_check_mark:
+### ✔️ Resolução ✔️
 ```javascript
 var produto = prompt("Qual o produto que vc está comprando?");
 var valor = parseFloat(prompt("Quanto este produto custa?"));
@@ -25,7 +25,7 @@ var resultado = valor * quantidade;
 alert("O total para a compra do produto " + produto + " foi de R$" + resultado);
 ```
 
-## :two: Financiamento maluco
+## 2️⃣ Financiamento maluco
 Você está fazendo um sistema para uma loja de carros e eles tem a seguinte regra para o financiamento dos veículos:
 
 1. As pessoas podem parcelar em quantas vezes quiser
@@ -38,7 +38,7 @@ Você deve mostrar:
 1. O valor total do financiamento
 2. O valor das parcelas
 
-### :heavy_check_mark: Resolução :heavy_check_mark:
+### ✔️ Resolução ✔️
 ```javascript
 var valorVeiculo = parseFloat(prompt("Qual o valor do veículo?"));
 var parcelas = parseInt(prompt("Em quantas vezes você quer parcelar?"));
@@ -55,7 +55,7 @@ alert("O valor final é R$" + valorFinal +
     "\nCada parcela será de R$" + valorParcela);
 ```
 
-## :three: Anime ou série favorita
+## 3️⃣ Anime ou série favorita
 Você já parou pra pensar quanto tempo gastou assistindos o seu anime ou série favorita?
 
 Vamos escrever um programa que nos ajude a calcular, o usuário vai precisar informar:
@@ -68,7 +68,7 @@ Nosso programa deve mostrar quantas horas já gastamos assistindo.
 
 Se quiser deixar ainda melhor e o anime ou série for muito grande, podemos apresentar o resultado em dias, semanas, meses... seja criativo.
 
-### :heavy_check_mark: Resolução :heavy_check_mark:
+### ✔️ Resolução ✔️
 ```javascript
 var animeOuSerie = prompt("Qual o nome do seu anime ou série favorita?");
 var qtdEpisodios = parseInt(prompt("Quantos episódios tem?"));
