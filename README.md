@@ -26,6 +26,8 @@ Ao longo de todo o curso aprenderemos sobre:
 * 💀 Desafios
     * [Salário Líquido](1_javascript_1/desafios/salario_liquido.md)
     * [Média e aprovação 2.0](1_javascript_1/desafios/media_e_aprovacao_v2.md)
+    * [Valores contendo "a"](1_javascript_1/desafios/valores_contendo_a.md)
+    * [De trás pra frente](1_javascript_1/desafios/de_tras_pra_frente.md)
 
 <!-- * [HTML](2_html/README.md) -->
 <!-- * [CSS](3_css/README.md) -->
