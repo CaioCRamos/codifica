@@ -1,3 +1,5 @@
 # Valores contendo "a"
 
-Neste programa vamos precisar receber 10 valores do usuário e no final informar todos os valores contem o "a", pode ser no começo, meio ou fim.
+Neste programa vamos precisar receber 10 valores do usuário, pode ser números, palavras ou frases.
+
+No final devemos informar todos os valores contendo a letra "a", não importa a posição.
