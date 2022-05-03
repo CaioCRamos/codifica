@@ -38,3 +38,18 @@ for (posicao = (valorDigitado.length - 1); posicao >= 0; posicao--) {
 
 alert(resultado);
 ```
+
+### ✔️ Resolução 3 ✔️
+```javascript
+// Abordagem utilizando a criação de um array a partir da string digitada
+// e usando as funções reverse e join
+
+var valorDigitado = prompt("Digite um número, palavra ou frase");
+
+// var letras = valorDigitado.split("");
+var letras = Array.from(valorDigitado);
+var letrasInvertidas = letras.reverse();
+
+var resultado = letrasInvertidas.join("");
+alert(resultado);
+```
