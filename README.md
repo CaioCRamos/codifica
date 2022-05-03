@@ -1,4 +1,4 @@
-# Codifica (em construção)
+# Codifica
 
 <P align="center">
     <img src="assets/logo_base_social.jpg" width=150>
