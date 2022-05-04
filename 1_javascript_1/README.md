@@ -17,6 +17,8 @@
     * [For](#for)
     * [While](#while)
     * [Arrays](#arrays)
+        * [Arrays e For](#arrays-e-for)
+        * [Arrays e outro For](#arrays-e-outro-for)
     * [Funções](#funções)
     * [Var, Let, Const](#var-let-const)
 
@@ -232,17 +234,17 @@ while(valorDigitado != "sair") {
 
 Arrays são **variáveis** capazes de armazenar multiplos valores, sem a necessidade de criar múltiplas variáveis. Eles podem ser vistos como uma lista ou listagem de valores.
 
-Se pensarmos em uma variável como uma gaveta, onde guardamos coisas lá dentro, podemos entender os Arrays como um armário inteiro, composto por infinitas gavetas. Sim, podemos guardar infinitos valores em um array.
+Se pensarmos em uma variável como uma gaveta, onde guardamos coisas lá dentro, podemos entender os arrays como um armário inteiro, composto por infinitas gavetas. Sim, podemos guardar infinitos valores em um array.
 
 ```javascript
-// criação de um Array vazio
+// criação de um array vazio
 var cores = [];
 
-// criação de um Array com itens
+// criação de um array com itens
 var nomes = ["caio", "tati", "joão"];
 ```
 
-Mas como obter o valor da gaveta correta? Cada gaveta, ou melhor, cada item do Array possui uma posição, onde o primeiro **é sempre 0**, o segundo é 1 e assim por diante.
+Mas como obter o valor da gaveta correta? Cada gaveta, ou melhor, cada item do array possui uma posição, onde o primeiro **é sempre 0**, o segundo é 1 e assim por diante.
 
 ```javascript
 //              0       1       2
@@ -255,14 +257,59 @@ Então para obter o valor exato de ~~uma gaveta~~ um item do array, basta utiliz
 var nome = nomes[1]; // "tati"
 ```
 
-Quando adicionamos um novo item no Array, **este sempre será adicionado no final** e para realizar esta adição basta utilizar:
+Quando adicionamos um novo item no array, **este sempre será adicionado no final** e para realizar esta adição basta utilizar:
 
 ```javascript
 nomes.push("maria");
 // agora temos ["caio", "tati", "joão", "maria"]
 ```
 
-[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array) para referência completa.
+Para saber **quantos itens** existem no array, podemos utilizar a propriedade `length`:
+
+```javascript
+alert(nomes.length); // nesse caso será 4
+```
+
+[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/array) para referência completa.
+
+#### Arrays e For
+
+Como já vimos, para acessar os itens de um array precisamos informar sua posição. Quando queremos percorrer todas as posições de um array é comum utilizarmos o `for` como estrutura, pois o encaixe é perfeito, o `for` é indicado quando sabemos quantas vezes precisamos repetir um fluxo, já o array sempre nos diz o total de elementos através da propriedade `length`.
+
+Então, se sabemos que o primeiro elemento de um array é sempre o de posição **0** e também sabemos quantos itens existem dentro, montar o for para ler todos os elementos fica fácil:
+
+```javascript
+var cores = ["azul", "preto", "vermelho"];
+
+for (var posicao = 0; posicao < cores.length; posicao ++) {
+    // faz alguma coisa com cada um dos itens, como por exemplo mostrar um alerta
+    alert(cores[posicao]);
+}
+```
+Perceba que no trecho em que configuramos quantas voltas o for deve rodar utilizamos o `posicao < cores.length`, ou seja, será executado para posicao **menor** que a quantidade de itens no array. Não foi utilizado o **menor ou igual** por um motivo simples, existem 3 itens no array, porém suas posições são **0**, **1** e **2**, **não existe** posição 3.
+
+Perceba também que a variável `posicao`, utilizada para controlar as voltas do `for` é a mesma utilizada para realizar a leitura do array `cores[posicao]`.
+
+#### Arrays e outro For
+
+Apesar de a leitura de arrays utilizando o `for` como foi descrito acima funcionar perfeitamente, podemos cometer alguns enganos ao montar a estrutura.
+
+Por isso, existe uma variação do `for` exclusivo para ser usado em conjunto com os arrays e um pouco mais simples:
+
+```javascript
+var cores = ["azul", "preto", "vermelho"];
+
+for (var cor of cores) {
+    // faz alguma coisa com cada um dos itens, como por exemplo mostrar um alerta
+    alert(cor);
+}
+```
+
+Nesta abordagem o `for` percorrerá diretamente os itens do array, atribuindo o valor de cada um deles a variável `cor`.  
+
+Assim, o `for` sempre percorrerá o array **do começo ao fim**, sem a necessidade de outras configurações.
+
+[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of) para referência completa.
 
 ### Funções
 ...
