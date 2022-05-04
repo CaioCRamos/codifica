@@ -305,7 +305,7 @@ for (var cor of cores) {
 }
 ```
 
-Nesta abordagem o `for` percorrerá diretamente os itens do array, atribuindo o valor de cada um deles a variável `cor`.  
+Nesta abordagem não nos preocupamos com a posição dos elementos, o `for` percorrerá diretamente os itens do array atribuindo o valor de cada um deles a variável `cor`.  
 
 Assim, o `for` sempre percorrerá o array **do começo ao fim**, sem a necessidade de outras configurações.
 
