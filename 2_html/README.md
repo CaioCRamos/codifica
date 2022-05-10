@@ -6,6 +6,37 @@ Se fizermos um paralelo com o corpo humano, o `HTML` seria toda a nossa estrutur
 
 É uma linguagem com sintaxe própria e estruturada através de tags.
 
+## Tabela de conteúdos
+* [Estrutura básica de uma página](#estrutura-básica-de-uma-página)
+* [Principais elementos](#principais-elementos)
+  * [Títulos e sub-títulos](#títulos-e-sub-títulos-h1-h2)
+  * [Parágrafos](#parágrafos-p)
+  * [Listas ordenadas](#listas-ordenadas-ol)
+  * [Listas NÃO ordenadas](#listas-não-ordenadas-ul)
+  * [Itens das listas](#itens-das-listas-li)
+  * [Imagens](#imagens-img)
+  * [Divs](#divs-div)
+  * [Links](#links-a)
+* [Inputs](#inputs)
+  * [Legendas dos campos](#legendas-dos-campos-label)
+  * [Texto simples](#texto-simples)
+  * [Valores relacionados a datas](#valores-relacionados-a-datas)
+  * [Números](#números-input-type"number")
+  * [Única escolha](#única-escolha-input-type"radio")
+  * [Múltipla escolha](#múltipla-escolha-input-type"checkbox")
+  * [Caixa de seleção](#caixa-de-seleção-select)
+  * [Botão](#botão-inputtype"button")
+  * [Formulário](#formulário-form-e-botão-de-envio-input-type"submit")
+* [Tags semânticas](#tags-semânticas)
+  * [nav](#nav)
+  * [header](#header)
+  * [main](#main)
+  * [section](#section)
+  * [footer](#footer)
+  * [fieldset](#fieldset)
+  * [Referências sobre o assunto e outras tags](#referências-sobre-o-assunto-e-outras-tags)
+
+
 ## Estrutura básica de uma página
 
 ```html
@@ -33,7 +64,7 @@ Se fizermos um paralelo com o corpo humano, o `HTML` seria toda a nossa estrutur
 
 Se você estiver utilizando o `VSCode` para desenvolver suas páginas, não esqueça que existe o atalho `! + enter` logo no início de um documento `HTML` em branco e essa estrutura básica será criada automáticamente.
 
-[Aqui](https://www.loom.com/share/a0e22f535fd74b3e9940cd1366212ed5?sharedAppSource=personal_library) tem um vídeo bem curtinho explicando um pouco mais sobre a estrutura inicial das páginas HTML.
+[Aqui](https://www.youtube.com/watch?v=_VSvUYVmTsg&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2) tem um vídeo bem curtinho explicando um pouco mais sobre a estrutura inicial das páginas HTML.
 
 ## Principais Elementos
 
@@ -53,7 +84,7 @@ Vão ficando cada vez menores e menos destacados conforme seu número aumenta.
 <h5>Sub-título 4</h5>
 <h6>Sub-título 5</h6>
 ```
-[Aqui](https://www.loom.com/share/6f45cadadd7d4a9ea5c155ac1610fc8e?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre os títulos e outros elementos de texto.
+[Aqui](https://www.youtube.com/watch?v=QRjlxL4-PVQ&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2) tem um vídeo bem curtinho falando sobre os títulos e outros elementos de texto.
 
 
 ### Parágrafos `<p>`
@@ -64,10 +95,10 @@ Como o próprio nome já diz é destinado para acomodar os parágrafos com texto
   Aqui vão os textos comuns das páginas, normalmente são os conteúdos das noticias ou legendas de fotos...
 </p>
 ```
-[Aqui](https://www.loom.com/share/6f45cadadd7d4a9ea5c155ac1610fc8e?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre os parágrafos e outros elementos de texto.
+[Aqui](https://www.youtube.com/watch?v=QRjlxL4-PVQ&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2) tem um vídeo bem curtinho falando sobre os parágrafos e outros elementos de texto.
 
 
-### Listas Ordenadas `<ol>`
+### Listas ordenadas `<ol>`
 Para os momentos em que queremos mostras os itens e formato de lista e a ordem deles importa.  
 O `ol` vem de `Ordered List`.
 
@@ -85,9 +116,9 @@ O código acima produzira uma lista exatamente como a lista abaixo:
 2. Item 2
 3. Item 3
 
-[Aqui](https://www.loom.com/share/30053b9c581347bb8a99825706277dc7?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre as listas.
+[Aqui](https://www.youtube.com/watch?v=FC_l7bXr8_s&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=3) tem um vídeo bem curtinho falando sobre as listas.
 
-### Listas Não Ordenadas `<ul>`
+### Listas NÃO ordenadas `<ul>`
 Para os momentos em que queremos mostrar os itens da lista como tópicos.  
 O `ul` vem de `Unordered List`.
 
@@ -104,9 +135,9 @@ O código acima produzira uma lista exatamente como a lista abaixo:
 - Item 2
 - Item 3
 
-[Aqui](https://www.loom.com/share/30053b9c581347bb8a99825706277dc7?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre as listas.
+[Aqui](https://www.youtube.com/watch?v=FC_l7bXr8_s&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=3) tem um vídeo bem curtinho falando sobre as listas.
 
-### Itens das Listas `<li>`
+### Itens das listas `<li>`
 Como visto nas duas listas acima, ambas compartilham a mesma estrutura de tags para o conteúdo.  
 O `li` vem de `List Item`.  
 Os itens das listas vão se comportar de acordo com a tag de lista que eles estiverem dentro, sendo `ul` ou `ol`.
@@ -123,7 +154,7 @@ Como visto acima, é bastante simples configurar a tag `<img>`, precisamos apena
 ***Importante***: caso seja uma imagem do computador, não esqueça de informar a extensão do arquivo juntamente com o nome e o caminho, por exemplo: `/imagens/logo.png`.
 - `alt` local onde informaremos um texto alternativo, caso a imagem não seja carregada, muito útil quando utilizamos imagens da ***Internet***, pois suas `URLs` podem ser removidas após algum tempo.
 
-[Aqui](https://www.loom.com/share/f666a45e1db847b090951d1bb6aa2142?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre as imagens.
+[Aqui](https://www.youtube.com/watch?v=ibr1caVIsao&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=7) tem um vídeo bem curtinho falando sobre as imagens.
 
 ### Divs `<div>`
 Apesar de parecer extremamente simples, os elementos `<div>` são fundamentais para criação de páginas elaboradas e funcionais.
@@ -178,7 +209,7 @@ Quase todos os inputs não possuem um texto explicando para que eles servem ou o
 
 Uma coisa importante sobre o elemento é a propriedade `for=""`, nela devemos informar o `id` do campo que o `label` serve como legenda, isso ficará mais claro nos tópicos a seguir.
 
-[Aqui](https://www.loom.com/share/1e953fd4d99e408e980bc615abf4d8b3?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre as legendas.
+[Aqui](https://www.youtube.com/watch?v=8hrEQESqNmo&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=16) tem um vídeo bem curtinho falando sobre as legendas.
 
 ### Texto simples 
 Elemento para textos simples em geral.
@@ -195,7 +226,7 @@ Elemento para que o usuário digite valores de e-mail.
 <input type="email" id="email">
 ```
 
-[Aqui](https://www.loom.com/share/7564ed29b12349aea2347d12afab26fd?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre inputs de texto.
+[Aqui](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15) tem um vídeo bem curtinho falando sobre inputs de texto.
 
 ### Valores relacionados a datas
 Elemento para que o usuário informe um mês.
@@ -219,7 +250,7 @@ Elemento para que o usuário informe uma data e hora.
 <input type="datetime" id="data-e-hora">
 ```
 
-[Aqui](https://www.loom.com/share/7564ed29b12349aea2347d12afab26fd?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre os inputs de data.
+[Aqui](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15) tem um vídeo bem curtinho falando sobre os inputs de data.
 
 ### Números `<input type="number">`
 Elemento para que o usuário informe um número.
@@ -229,7 +260,7 @@ Elemento para que o usuário informe um número.
 <input type="number" id="irmaos">
 ```
 
-[Aqui](https://www.loom.com/share/7564ed29b12349aea2347d12afab26fd?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre o input de números.
+[Aqui](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15) tem um vídeo bem curtinho falando sobre o input de números.
 
 ### Única escolha `<input type="radio">`
 O elemento `radio` nos permite oferecer opções de escolha para o usuário, sem que ele precise digitar algo, apenas selecionar.
@@ -268,7 +299,7 @@ No entanto, quando temos mais do que um elemento `radio` na tela, eles se compor
 
 Perceba que cada `radio` tem sua propriedade `value`, esse é o valor real que será obtido ao selecionar de fato o elemento e será útil futuramente ao utilizar o `Javascript`.
 
-[Aqui](https://www.loom.com/share/3ed4da5a15ba489c9162a9d25d7f8bf5?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre o radio.
+[Aqui](https://www.youtube.com/watch?v=ECJL1Oi6xzc&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=17) tem um vídeo bem curtinho falando sobre o radio.
 
 ### Múltipla Escolha `<input type="checkbox">`
 O elemento `checkbox` é outra forma de oferecer opções de escolha para o usuário, porém ele é utilizado quando as escolhas são independentes umas das outras, ou seja, o usuário pode marcar várias se quiser.
@@ -308,7 +339,7 @@ Ou em conjunto para oferecer múltiplas escolhas para o usuário:
 
 Perceba que cada `checkbox` tem sua propriedade `value`, esse é o valor real que será obtido ao marcar o elemento e será útil futuramente ao utilizar o `Javascript`.
 
-[Aqui](https://www.loom.com/share/fad77a81001d4d559d0e0200a0fa5c38?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre o checkbox.
+[Aqui](https://www.youtube.com/watch?v=DsQNvzAwg7E&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=19) tem um vídeo bem curtinho falando sobre o checkbox.
 
 ### Caixa de seleção `<select>`
 Uma forma de oferecer opções para o usuário e que não é necessáriamente um `input` é o elemento `select`. Assim como o `radio`, a ideia é que o usuário tenha apenas uma opção de escolha, no entanto, essas opções ficarão escondidas dentro de uma caixa e serão mostradas apenas quando o usuário clicar no elemento.
@@ -331,7 +362,7 @@ No exemplo acima, foi incluída uma primeira opção, apenas para mostrar o text
 
 Perceba que cada `option` tem sua propriedade `value`, esse é o valor real que será obtido ao selecionar de fato uma opção e será útil futuramente ao utilizar o `Javascript`.
 
-[Aqui](https://www.loom.com/share/c2e7f5126ee244acb0d81612bed630c5?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre as caixas de seleção.
+[Aqui](https://www.youtube.com/watch?v=Cm4Xe84qoVw&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=18) tem um vídeo bem curtinho falando sobre as caixas de seleção.
 
 ### Botão `input<type="button">`
 Para incluir botões de ação nas nossas telas. 
@@ -344,7 +375,7 @@ Para incluir botões de ação nas nossas telas.
 <button>Clique aqui</button>
 ```
 
-[Aqui](https://www.loom.com/share/e19346a4aae44a01a6031c6b6f1eda13?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre os botões.
+[Aqui](https://www.youtube.com/watch?v=jn2aUSf0bcw&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=20) tem um vídeo bem curtinho falando sobre os botões.
 
 ### Formulário `<form>` e botão de envio `<input type="submit">`
 O input do tipo `submit` tem o objetivo de submeter as informações, ou seja, confirmar e enviar. 
@@ -366,7 +397,7 @@ O formulário por sua vez, é um tipo de **container**, assim como as `divs`, no
 
 *Importante: o evento `onsubmit` do `form` só é disparado **se todos** os inputs que estão dentro dele estiverem preenchidos de forma correta e respeitando suas validações.*
 
-[Aqui](https://www.loom.com/share/a96894988e6a419586d526844a9cf558?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre os formulários e os botões de envio.
+[Aqui](https://www.youtube.com/watch?v=tYgrNDQI4YU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=21) tem um vídeo bem curtinho falando sobre os formulários e os botões de envio.
 
 
 ## Tags semânticas
