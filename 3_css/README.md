@@ -6,9 +6,39 @@ Aproveitando o paralelo com o corpo humano que fizemos no texto sobre `HTML`, o 
 
 Assim como o `HTML`, o `CSS` também possui uma sintaxe própria, que por sua vez, é bem diferente da primeira linguagem que estudamos.
 
+## Tabela de conteúdos
+* [Formas de usar o CSS](#formas-de-usar-o-css)
+  * [Do jeito "feio"](#do-jeito-"feio")
+  * [Do jeito "mais ou menos"](#do-jeito-"mais-ou-menos")
+  * [Do jeito "certo"](#do-jeito-"certo")
+* [Como selecionar elementos para aplicar o estilo?](#como-selecionar-os-elementos-para-aplicar-o-estilo)
+  * [Pela tag do elemento](#pela-tag-do-elemento)
+  * [Pela classe do elemento](#pela-classe-do-elemento)
+  * [Pelo id do elemento](#pelo-id-do-elemento)
+* [Múltiplas formas de seleção](#múltiplas-formas-de-seleção)
+  * [Aplicar o mesmo estilo a elementos diferentes](#aplicar-o-mesmo-estilo-a-elementos-diferentes)
+  * [Selecionar um elemento que está dentro de outro](#selecionar-um-elemento-que-está-dentro-de-outro)
+* [Algumas estilizações comuns](#algumas-estilizações-comuns)
+  * [Cor do texto](#cor-do-texto)
+  * [Cor de fundo](#cor-de-fundo)
+  * [Fonte](#fonte)
+  * [Alinhamento do texto](#alinhamento-do-texto)
+  * [Borda nos elementos](#borda-nos-elementos)
+  * [Largura e altura](#largura-e-altura)
+  * [Espaçamento interno](#espaçamento-interno)
+  * [Espaçamento externo](#espaçamento-externo)
+* [Posicionamento de elementos](#posicionamento-de-elementos)
+  * [Utilizando a propriedade display](#utilizando-a-propriedade-display)
+  * [Utilizando a propriedade position](#utilizando-a-propriedade-position)
+* [Pseudo-classes](#pseudo-classes)
+  * [hover](#hover)
+  * [active](#active)
+  * [Referências sobre o assunto e outras pseudo-classes](#referências-sobre-o-assunto-e-outras-pseudo-classes)
+
+## Formas de usar o CSS
 Podemos criar o `CSS` de 3 formas diferentes para criar as nossas páginas com conteúdo e estilo.
 
-## Do jeito *"feio"*
+### Do jeito *"feio"*
 A primeira forma de trabalhar com o `CSS` e que é considerada a mais *"feia"*, é utilizando a propriedade `style` que todo elemento `HTML` possui.
 
 ```html
@@ -29,9 +59,9 @@ Essa é sem dúvida a forma mais rápida e normalmente aprendemos por aqui, no e
 
 Não apenas isso, mas se por algum motivo você precisar alterar o estilo, terá que alterar em todos!
 
-[Aqui](https://www.loom.com/share/48c6b1e970764d44af511efa6cd26e16?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"feio"*.
+[Aqui](https://www.youtube.com/watch?v=qstZ66Ebz7M&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=4) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"feio"*.
 
-## Do jeito *"mais ou menos"*
+### Do jeito *"mais ou menos"*
 O modo *"mais ou menos"* de trabalhar com o `CSS` busca facilitar o problema que existe no modo anterior, ou seja, aqui não fazemos os estilos de maneira duplicada para cada elemento. 
 
 Nesse modo, tentamos trabalhar de maneira mais genérica, para que o maior número de elementos se beneficie dos estilos criados.
@@ -59,9 +89,9 @@ Você pode estar se perguntando:
 
 Porque todo estilo criado dentro da tag `style` pode ser aproveitado apenas por essa página, e um site por mais simples que seja dificilmente terá apenas uma página. Nesse caso, teremos que lidar com duplicações e possivelmente com modificações. 
 
-[Aqui](https://www.loom.com/share/b44679a6a10b4c44b8ff2a7d52719003?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"mais ou menos"*.
+[Aqui](https://www.youtube.com/watch?v=qmQ8Y0YqQd0&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=5) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"mais ou menos"*.
 
-## Do jeito ***"certo"***
+### Do jeito ***"certo"***
 O melhor modo de trabalhar com o `CSS` é tendo **um arquivo dedicado para isso**. Assim poderemos nos beneficiar de todos os pontos anteriores, teremos estilos aplicados facilmente para todos os elementos da página e ainda poderemos compartilhar esses estilos entre páginas de um mesmo site. Mantendo assim uma identidade visual coerente e mais fácil de gerenciar.
 
 Os arquivos `CSS` tem a extensão `.css` e tem a seguinte estrutura:
@@ -94,7 +124,7 @@ Já a propriedade `href="estilo.css"` é onde estamos informando qual o arquivo 
 
 **Importante**: podemos linkar quantos arquivos CSS forem necessários em nossas páginas! Porém, precisamos ter cuidado para que os mesmos elementos não estejam sendo modificado nos diversos arquivos, pois isso pode ocasionar efeitos coloterais difíceis de rastrear.
 
-[Aqui](https://www.loom.com/share/f130cf7119064703b50ebfda194a18f8?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"certo"*.
+[Aqui](https://www.youtube.com/watch?v=lmkCqZcaKfI&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=6) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"certo"*.
 
 ## Como selecionar os elementos para aplicar o estilo?
 Considerando que você esteja utilizando o `CSS` do *"jeito certo"* ou até mesmo do jeito *"mais ou menos"*, você tem algumas possibilidades de como selecionar os elementos para aplicação do estilo.
@@ -164,10 +194,10 @@ Já para aplicar um estilo ao `id` no `CSS`, utilizamos o valor dele iniciando c
 }
 ```
 
-### Múltiplas formas de seleção
+## Múltiplas formas de seleção
 Todas as formas de seleção mostradas acima podem ser utilizadas em conjunto, seja para selecionar multiplos elementos ao mesmo tempo, ou para selecionar elementos que estao dentro de elementos, por exemplo:
 
-#### Aplicar o mesmo estilo elementos diferentes
+### Aplicar o mesmo estilo a elementos diferentes
 Usamos os nomes das tags dos elementos, classes ou ids separados por `vírgula(,)`.
 ```css
 /* aplicando o mesmo estilo para itens de lista, parágrafos e elementos com a classe ".uma-classe-qualquer */
@@ -176,7 +206,7 @@ li,p,.uma-classe-qualquer {
 }
 ```
 
-#### Selecionar um elemtento que está dentro de outro
+### Selecionar um elemento que está dentro de outro
 Usamos os nomes das tags dos elementos, classes ou ids separados por `espaço( )`.
 ```css
 /* aplicando o estilo para imagens que estejam dentro de divs */
@@ -195,7 +225,7 @@ div .uma-classe-qualquer {
 }
 ```
 
-## Algumas estilizações possíveis
+## Algumas estilizações comuns
 Abaixo vamos listar algumas das estilizações possíveis, lembrando que são ***apenas algumas***, o `CSS` é muito rico e é possível obter resultados bastante diferentes e inovadores ao explorar suas propriedades.
 
 Os exemplos foram todos aplicados a parágrafos apenas para ilustração, no entanto, podem ser aplicados para praticamente todos os elementos `HTML`. 
@@ -294,17 +324,17 @@ p {
 
 ### Utilizando a propriedade `display`
 
-[Aqui](https://www.loom.com/share/8e74e93162244fd9b20b86a354ae86e2?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display`.
+[Aqui](https://www.youtube.com/watch?v=jSYiq5zWE0Q&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=9) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display`.
 
-[Aqui](https://www.loom.com/share/fb9fcd15cf874c318dd92787bbdfa41b?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display: inline-block`.
+[Aqui](https://www.youtube.com/watch?v=YYtQNssGf24&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=10) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display: inline-block`.
 
 ### Utilizando a propriedade `position`
 
-[Aqui](https://www.loom.com/share/6138f7b95c4248b3a96360bb58c40bba?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: relative`.
+[Aqui](https://www.youtube.com/watch?v=RteWZFit6ec&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=11) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: relative`.
 
-[Aqui](https://www.loom.com/share/834be468c9074b1988b6418f45f1bfc4?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: absolute`.
+[Aqui](https://www.youtube.com/watch?v=hduQj65wjDk&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=12) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: absolute`.
 
-[Aqui](https://www.loom.com/share/8c1d59757edc472d8fe3ab7f5cc97bbd?sharedAppSource=personal_library) tem um vídeo bem curtinho falando sobre os cuidados ao utilizar `position: relative` ou `position: absolute`.
+[Aqui](https://www.youtube.com/watch?v=H92_UpiyLYY&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=13) tem um vídeo bem curtinho falando sobre os cuidados ao utilizar `position: relative` ou `position: absolute`.
 
 ## Pseudo-classes
 As `pseudo-classes` do `CSS` são utilizadas para estilizar elementos `HTML` em momentos específicos.

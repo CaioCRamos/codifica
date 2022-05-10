@@ -29,6 +29,10 @@ Ao longo de todo o curso aprenderemos sobre:
     * [Valores contendo "a"](1_javascript_1/desafios/valores_contendo_a.md)
     * [De trás pra frente](1_javascript_1/desafios/de_tras_pra_frente.md)
 
+## HTML e CSS
+* [📝 Material de apoio sobre HTML](2_html/README.md)
+* [📝 Material de apoio sobre CSS](3_css/README.md)
+
 <!-- * [HTML](2_html/README.md) -->
 <!-- * [CSS](3_css/README.md) -->
 <!-- * [Javascript II](4_javascript_2/README.md) -->
