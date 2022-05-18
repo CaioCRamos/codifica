@@ -32,7 +32,7 @@ Ao longo de todo o curso aprenderemos sobre:
 ## HTML e CSS
 * 📝 Materiais de apoio sobre [HTML](2_html/README.md) e [CSS](3_css/README.md)
 
-<!-- * [HTML](2_html/README.md) -->
-<!-- * [CSS](3_css/README.md) -->
-<!-- * [Javascript II](4_javascript_2/README.md) -->
-<!-- * [Github](4_github/README.md) -->
+## Javascript II - Manipulando elementos
+* [📝 Material de apoio](4_javascript_2/README.md)
+* 💪 Exercícios
+    * [Adicionar elementos simples na tela](4_javascript_2/exercicios/adicionar_elementos/README.md)
