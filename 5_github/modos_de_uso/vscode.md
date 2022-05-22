@@ -109,7 +109,7 @@ Uma vez que tudo seja autorizado, seremos redirecionados ao **VSCode** para fina
 Um novo repositório será criado na nossa conta no **Github** já contendo todo o nosso código.
 
 <P align="center">
-    <img src="../assets/github_repositorio.png" >
+    <img src="../assets/github_repositorio_1.png" >
 </p>
 
 ## Quando já temos um repositório no Github
