@@ -45,5 +45,5 @@ user.email=seuemail@email.com
 Agora que tudo está configurado e pronto, você pode começar a utilizar o Git e o Github de fato.
 
 Existem inúmeras maneira de fazer isso, no entanto aqui mostrarei duas: 
-- [Usando por linhas de comando](command_line.md)
-- [Usando no VSCode](vscode.md)
+- [Usando Git por linhas de comando](command_line.md)
+- [Usando Git no VSCode](vscode.md)
