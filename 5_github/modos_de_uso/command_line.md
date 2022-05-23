@@ -9,7 +9,7 @@
     * [Primeiro commit](#primeiro-commit)
     * [Identificando o destinatário](#publicando-o-commit)
     * [Publicando o commit](#publicando-o-commit)
-
+* [Referências](#referências)
 
 ## Introdução
 
@@ -166,3 +166,7 @@ Isso significa que a partir de agora todo o seu código já está na sua conta n
 <P align="center">
     <img src="../assets/github_repositorio_2.png">
 </p>
+
+## Referências 
+
+- [Git-guides](https://github.com/git-guides/) - Material oficial do **Github** sobre os principais comandos em inglês.
