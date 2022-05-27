@@ -28,8 +28,9 @@ Assim como o `HTML`, o `CSS` também possui uma sintaxe própria, que por sua ve
   * [Espaçamento interno](#espaçamento-interno)
   * [Espaçamento externo](#espaçamento-externo)
 * [Posicionamento de elementos](#posicionamento-de-elementos)
-  * [Utilizando a propriedade display](#utilizando-a-propriedade-display)
-  * [Utilizando a propriedade position](#utilizando-a-propriedade-position)
+  * [Utilizando display](#utilizando-display)
+  * [Utilizando position](#utilizando-position-position)
+  * [Utilizando display:"flex"](#utilizando-display"flex")
 * [Pseudo-classes](#pseudo-classes)
   * [hover](#hover)
   * [active](#active)
@@ -322,19 +323,227 @@ p {
 
 ## Posicionamento de elementos
 
-### Utilizando a propriedade `display`
+### Utilizando `display`
 
 [Aqui](https://www.youtube.com/watch?v=jSYiq5zWE0Q&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=9) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display`.
 
 [Aqui](https://www.youtube.com/watch?v=YYtQNssGf24&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=10) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display: inline-block`.
 
-### Utilizando a propriedade `position`
+### Utilizando `position`
 
 [Aqui](https://www.youtube.com/watch?v=RteWZFit6ec&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=11) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: relative`.
 
 [Aqui](https://www.youtube.com/watch?v=hduQj65wjDk&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=12) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: absolute`.
 
 [Aqui](https://www.youtube.com/watch?v=H92_UpiyLYY&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=13) tem um vídeo bem curtinho falando sobre os cuidados ao utilizar `position: relative` ou `position: absolute`.
+
+### Utilizando `display:"flex"`
+O `flex` ou `Flexbox` é o modo mais rico e poderoso de posicionamento de elementos. Isso porque diferentemente dos descritos anteriormente que eram aplicados aos elementos que queríamos posicionar, **este é aplicado primeiramente ao container onde os elementos que queremos posicionar estão**.
+
+Por exemplo, imagine que queremos ajustar o posicionamento de 3 divs com a class="areaInterna", todas tem outra classe apenas para mudar a cor e facilitar a visualização:
+```css
+.areaInterna {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.azul {
+    background-color: lightblue;
+}
+.vermelho {
+    background-color: lightcoral;
+}
+.verde {
+    background-color: lightgreen;
+}
+#areaPrincipal {
+    border: 2px dashed darkgray;
+}
+```
+
+```html
+<div id="areaPrincipal">
+    <div class="areaInterna azul">A</div>
+    <div class="areaInterna vermelho">B</div>
+    <div class="areaInterna verde">C</div>
+</div>
+```
+
+O resultado como de costume foi uma `div` embaixo da outra:
+
+<P align="center">
+    <img src="assets/flex_inicio.png">
+</p>
+
+Como dito acima, o `flex` é aplicado ao **container**, ou seja, ao elemento que **contém** os elementos que queremos posicionar, para isso basta"
+
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+    display: flex;
+}
+```
+
+Ao fazer isso já percebemos uma mudança perceptível, os elementos passam a ficar lado a lado e não mais um embaixo do outro.
+
+<P align="center">
+    <img src="assets/flex_row.png">
+</p>
+
+Aqui precisamos nos atentar para outra característica do `flex`, a organização dos elementos é baseada em **eixos**, um **principal** e outro **secundário**.
+
+Quando alteramos o `display="flex"` o conteúdo foi organizado um ao lado do outro pois o eixo padrão é `row` ou linha. Mas podemos alterar o eixo através da propriedade `flow-direction`.
+
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+
+    display: flex;
+    flex-direction: row; /*valor padrão*/
+}
+```
+
+As possibilidades para a propriedade `flow-direction` são:
+
+`row`: em linha e da esquerda para a direita.
+<P align="center">
+    <img src="assets/flex_row.png">
+</p>
+
+`row-reverse`: em linha, mas em ordem reversa, da direita para a esquerda.
+<P align="center">
+    <img src="assets/flex_row_reverse.png">
+</p>
+
+`column`: em coluna, de cima para baixo.
+<P align="center">
+    <img src="assets/flex_inicio.png">
+</p>
+
+`column-reverse`: em coluna, mas em ordem reversa, de baixo para cima.
+<P align="center">
+    <img src="assets/flex_column_reverse.png">
+</p>
+
+Também podemos definir como os elementos serão dispostos ao longo do eixo principal com a propriedade `justify_content`.
+
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+```
+
+<P align="center">
+    <img src="assets/flex_justify_content_center.png">
+</p>
+
+Alguns valores possíveis:
+
+<P align="center">
+    <img src="assets/flex_justify_content.png">
+</p>
+
+**Importante**: a propriedade `justify-content` funciona em conjunto com o **eixo principal**, neste exemplo estou usando `row` (em linha), ao escolher outro **eixo principal** como column ou row-reverse o resultado será diferente, pois as referências de inicio e fim são diferentes para cada eixo. 
+
+Existem casos onde a quantidade de itens dentro do **container** é muito grande e não cabem direito, nestes casos podemos definir como o **container** deve se comportar através da propriedade `flex-wrap`, decidindo se a linha ou coluna será quebrada e continuará na sequência ou se os elementos serão "apertados".
+
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+```
+
+<P align="center">
+    <img src="assets/flex_wrap.png">
+</p>
+
+Se não quisermos que os itens fiquem muito "grudados", podemos usar as propriedades `row-gap` e `column-gap` para definir distâncias entre as linhas e colunas.
+
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+```
+
+<P align="center">
+    <img src="assets/flex_row_gap_column_gap.png">
+</p>
+
+Por último mas não menos importante, podemos manipular como os elementos serão dispostos no **eixo secundário**, é a mesma lógica o `justify-content`, porém em outro eixo. Para isso usaremos o `align-items`.
+
+No nosso exemplo, estamos trabalhando **em linha** no **eixo principal**, por isso nossos itens estão centralizados horizontalmente, porém se quisermos alinhá-los também verticalmente, podemos:
+
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+}
+```
+
+Mas só fazendo essa modificação nossos elementos ainda não ficarão no centro da tela, horizontal e verticalmente. Pois se observarmos a linha pontilhada em volta do nosso `container` podemos notar que a área do `container` já está toda ocupada verticalmente, por isso a mudança não é perceptível.
+
+Isso acontece pois normalmente a **altura** ou `height` dos elementos depende do que existe dentro do mesmo. Mas podemos também definir uma altura fixa.
+
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    height: 600px;
+}
+```
+
+<P align="center">
+    <img src="assets/flex_align_items.png">
+</p>
+
+#### Resumão
+```css
+#areaPrincipal {
+    border: 2px dashed darkgray;
+    
+    display: flex; /* posicionamento flexível */    
+    flex-direction: row; /* define o eixo principal */
+    justify-content: center; /* define a distribuição dos elementos no eixo principal */
+    flex-wrap: wrap; /* define se haverá quebra de linha */
+    row-gap: 20px; /* define a distância entre as linhas */
+    column-gap: 20px; /* define a distância entre as colunas */
+    align-items: center; /* define a distribuição dos elementos no eixo secundário */
+
+    height: 600px;
+}
+```
+
+Ótima [referência](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) sobre o assunto, porém em inglês.
 
 ## Pseudo-classes
 As `pseudo-classes` do `CSS` são utilizadas para estilizar elementos `HTML` em momentos específicos.
