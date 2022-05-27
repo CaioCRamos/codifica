@@ -39,3 +39,4 @@ Ao longo de todo o curso aprenderemos sobre:
 
 ## Git e Github
 * [📝 Material de apoio](5_github/README.md)
+
