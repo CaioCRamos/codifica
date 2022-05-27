@@ -54,7 +54,7 @@ Ao longo de todo o curso aprenderemos sobre:
 }
 </style>
 
- <link rel="stylesheet" href="assets/teste.css">
+ <link rel="stylesheet" href="assets/css/teste.css">
 
 <div class="areaInterna azul"></div>
 <div class="areaInterna vermelho"></div>
