@@ -39,3 +39,22 @@ Ao longo de todo o curso aprenderemos sobre:
 
 ## Git e Github
 * [📝 Material de apoio](5_github/README.md)
+
+<style>
+.areaInterna {
+    width: 140px;
+    height: 140px;
+
+    border: 1px solid;
+}
+
+.azul {
+    border-color: lightblue;
+    background-color: lightblue;
+}
+</style>
+
+ <link rel="stylesheet" href="assets/teste.css">
+
+<div class="areaInterna azul"></div>
+<div class="areaInterna vermelho"></div>
