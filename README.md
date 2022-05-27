@@ -42,7 +42,7 @@ Ao longo de todo o curso aprenderemos sobre:
 
 <html>
 <head>
-    <style>
+    <style type="text/css">
         .areaInterna {
             width: 140px;
             height: 140px;
