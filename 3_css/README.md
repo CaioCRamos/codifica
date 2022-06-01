@@ -18,19 +18,22 @@ Assim como o `HTML`, o `CSS` também possui uma sintaxe própria, que por sua ve
 * [Múltiplas formas de seleção](#múltiplas-formas-de-seleção)
   * [Aplicar o mesmo estilo a elementos diferentes](#aplicar-o-mesmo-estilo-a-elementos-diferentes)
   * [Selecionar um elemento que está dentro de outro](#selecionar-um-elemento-que-está-dentro-de-outro)
-* [Algumas estilizações comuns](#algumas-estilizações-comuns)
+* [Cores](#cores)
   * [Cor do texto](#cor-do-texto)
   * [Cor de fundo](#cor-de-fundo)
+* [Textos](#textos)
   * [Fonte](#fonte)
   * [Alinhamento do texto](#alinhamento-do-texto)
-  * [Borda nos elementos](#borda-nos-elementos)
+* [Áreas e Tamanhos](#areas-e-tamanhos)
+  * [Bordas](#bordas)
   * [Largura e altura](#largura-e-altura)
   * [Espaçamento interno](#espaçamento-interno)
   * [Espaçamento externo](#espaçamento-externo)
+  * [Box-sizing](#box-sizing)
 * [Posicionamento de elementos](#posicionamento-de-elementos)
   * [Utilizando display](#utilizando-display)
-  * [Utilizando position](#utilizando-position-position)
-  * [Utilizando display:"flex"](#utilizando-display"flex")
+  * [Utilizando position](#utilizando-position)
+  * [Utilizando Flexbox](#utilizando-flexbox)
 * [Pseudo-classes](#pseudo-classes)
   * [hover](#hover)
   * [active](#active)
@@ -226,9 +229,7 @@ div .uma-classe-qualquer {
 }
 ```
 
-## Algumas estilizações comuns
-Abaixo vamos listar algumas das estilizações possíveis, lembrando que são ***apenas algumas***, o `CSS` é muito rico e é possível obter resultados bastante diferentes e inovadores ao explorar suas propriedades.
-
+## Cores
 Os exemplos foram todos aplicados a parágrafos apenas para ilustração, no entanto, podem ser aplicados para praticamente todos os elementos `HTML`. 
 
 ### Cor do texto
@@ -244,6 +245,9 @@ p {
   background-color: lightgreen; 
 }
 ```
+
+## Textos
+Os exemplos foram todos aplicados a parágrafos apenas para ilustração, no entanto, podem ser aplicados para praticamente todos os elementos `HTML`. 
 
 ### Fonte
 ```css
@@ -263,7 +267,10 @@ p {
 }
 ```
 
-### Borda nos elementos
+## Áreas e Tamanhos
+Os exemplos foram todos aplicados a parágrafos apenas para ilustração, no entanto, podem ser aplicados para praticamente todos os elementos `HTML`. 
+
+### Bordas
 Não só é possível adicionar borda em praticamente todos os elementos `HTML`, como também é possível deixa-las de diferentes formas. 
 
 Para isso temos algumas propriedades referentes a borda:
@@ -321,15 +328,31 @@ p {
 }
 ```
 
+### Box-sizing
+É a propriedade que define se apenas a **área interna** do elemento será contabilizada ou se **bordas** e **espaçamentos internos** também farão parte.
+
+Existem basicamente dois valores possíveis:
+```css
+box-sizing: content-box;
+
+/* ou */
+
+box-sizing: border-box;
+```
+
+`content-box`: é o modo padrão de todo elemento. Apenas a área interna **útil** é contabilizada ao definirmos a altura e a largura. Ou seja, não são consideradas bordas nem espaçamentos internos.
+
+`border-box`: já nesse modo, as bordas e o espaçamento interno são contabilizados na área do elemento.
+
 ## Posicionamento de elementos
 
-### Utilizando `display`
+### Utilizando display
 
 [Aqui](https://www.youtube.com/watch?v=jSYiq5zWE0Q&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=9) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display`.
 
 [Aqui](https://www.youtube.com/watch?v=YYtQNssGf24&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=10) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display: inline-block`.
 
-### Utilizando `position`
+### Utilizando position
 
 [Aqui](https://www.youtube.com/watch?v=RteWZFit6ec&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=11) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: relative`.
 
@@ -337,7 +360,7 @@ p {
 
 [Aqui](https://www.youtube.com/watch?v=H92_UpiyLYY&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=13) tem um vídeo bem curtinho falando sobre os cuidados ao utilizar `position: relative` ou `position: absolute`.
 
-### Utilizando `display:"flex"`
+### Utilizando Flexbox
 O `flex` ou `Flexbox` é o modo mais rico e poderoso de posicionamento de elementos. Isso porque diferentemente dos descritos anteriormente que eram aplicados aos elementos que queríamos posicionar, **este é aplicado primeiramente ao container onde os elementos que queremos posicionar estão**.
 
 Por exemplo, imagine que queremos ajustar o posicionamento de 3 divs com a class="areaInterna", todas tem outra classe apenas para mudar a cor e facilitar a visualização:
