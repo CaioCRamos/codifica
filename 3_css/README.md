@@ -375,7 +375,7 @@ O `CSS` que aplica o que foi descrito ficará assim:
 E o resultado será:
 
 <div style="display:flex;justify-content:center">
-  <div style="width: 100px;height: 100px;background-color: lightblue;border-width: 10px;border-color: blue;border-style: solid;padding: 20px;">
+  <div style="width: 100px;height: 100px;background-color: lightblue;border-width: 10px;border-color: blue;border-style: solid;padding: 20px;box-sizing: content-box;">
     <div style="width: 100%;height: 100%;background-color: yellow;">
     </div>
   </div>
