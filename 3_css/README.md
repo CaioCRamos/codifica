@@ -340,9 +340,103 @@ box-sizing: content-box;
 box-sizing: border-box;
 ```
 
-`content-box`: é o modo padrão de todo elemento. Apenas a área interna **útil** é contabilizada ao definirmos a altura e a largura. Ou seja, não são consideradas bordas nem espaçamentos internos.
+`content-box`: é o modo padrão de todo elemento. Apenas a área interna **útil** é contabilizada ao definirmos a largura e altura. Ou seja, não são consideradas bordas nem espaçamentos internos.
 
-`border-box`: já nesse modo, as bordas e o espaçamento interno são contabilizados na área do elemento.
+`border-box`: já nesse modo, as bordas e o espaçamento interno são contabilizados na área do elemento. Assim, a área útil do elemento será o que sobrar após descontar a borda e o espaçamento interno.
+
+#### Exemplo
+Imagine que temos duas `divs` na tela, uma dentro da outra.  
+A **div interna** é toda <span style="color:yellow">amarela</span> e tem a largura e a altura de `100%`, ou seja, vai ocupar todo o **espaço útil** do elemento que ela está dentro.  
+Já a div externa é toda <span style="color:lightblue">azul claro</span>, tem a largura e altura fixas de `100px`, tem também um espaçamento interno em todos os lados de 20px e uma borda <span style="color:blue">azul</span> de `10px`.
+
+O `CSS` que aplica o que foi descrito ficará assim:
+
+```css
+.div-externa {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
+
+    padding: 20px;
+}
+
+.div-interna {
+    width: 100%;
+    height: 100%;
+
+    background-color: yellow;
+}
+```
+
+E o resultado será:
+
+<div style="display:flex;justify-content:center">
+  <div style="width: 100px;height: 100px;background-color: lightblue;border-width: 10px;border-color: blue;border-style: solid;padding: 20px;">
+    <div style="width: 100%;height: 100%;background-color: yellow;">
+    </div>
+  </div>
+</div>
+
+Olhando para o resultado não é possível identificar nada de errado, porém, ao inspecionarmos o elemento pelo navegador temos o seguinte: 
+
+<P align="center">
+    <img src="assets/box-sizing-content-box.png">
+</p>
+
+Podemos notar que a área final da `div` ficou diferente do que definimos inicialmente, pois agora tem:
+1. `200px` de largura e altura de área útil
+1. `20px` de espaçamento interno em todos os lados
+1. `10px` de borda em todos os lados 
+
+Assim, a largura e a altura final são: `200 + (2*20) + (2*10) = 260`
+
+Agora, se utilizarmos a propriedade `box-sizing` com o valor `border-box` o resultado será bem diferente.
+
+```css
+.div-externa {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.div-interna {
+    width: 100%;
+    height: 100%;
+
+    background-color: yellow;}
+```
+
+E o resultado será:
+
+<div style="display:flex;justify-content:center">
+  <div style="width: 100px;height: 100px;background-color: lightblue;border-width: 10px;border-color: blue;border-style: solid;padding: 20px; box-sizing: border-box;">
+    <div style="width: 100%;height: 100%;background-color: yellow;">
+    </div>
+  </div>
+</div>
+
+O resultado já ficou visualmente diferente, mas vamos dar uma olhada no inspetor pra entender o que aconteceu.
+
+<P align="center">
+    <img src="assets/box-sizing-border-box.png">
+</p>
+
+1. `140px` de largura e altura de área útil
+1. `20px` de espaçamento interno em todos os lados
+1. `10px` de borda em todos os lados 
+
+Deste modo a largura e a altura final são exatamente os valores que definimos nas propriedades `width` e `lenght`, o que mudou foi a área útil disponível na `div`, pois: `140 + (2*20) + (2*10) = 200`
 
 ## Posicionamento de elementos
 
