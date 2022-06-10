@@ -19,6 +19,17 @@ O **DOM** é uma representação da nossa página `HTML` em forma de **documento
 
 Para mais detalhes sobre o DOM [clique aqui](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction).
 
+## Tabela de conteúdos
+* [Acessar a página](#acessar-a-página)
+* [Obter elementos da tela](#obter-elementos-da-tela)
+* [Obter os valores do elementos](#obter-os-valores-do-elementos)
+    * [Input](#input)
+    * [Outros elementos](#outros-elementos)
+* [Adicionar elementos simples na tela](#adicionar-elementos-simples-na-tela)
+* [Adicionar elementos complexos na tela](#adicionar-elementos-complexos-na-tela)
+* [Salvando as informações](#salvando-as-informações)
+* [Salvando objetos](#salvando-objetos)
+
 ## Acessar a página
 Para acessar a página como um todo utilizamos o comando `document` no Javascript.
 
@@ -130,3 +141,44 @@ alert(paragrafo.innerHTML);
 // o resultado será: Um parágrafo contendo qualquer coisa.
 alert(paragrafo.innerText);
 ```
+
+## Adicionar elementos simples na tela
+...
+
+## Adicionar elementos complexos na tela
+...
+
+## Salvando as informações
+Para salvar informações em uma espécie de "banco de dados" local do navegador podemos utilizar o **Local Storage**. É um recurso disponível nos navegadores que nos permite armazenar **informações de texto** que podem ser acessadas posteriormente, após atualizações de tela ou até mesmo quando o navegador é fechado.
+
+Para acessarmos o **Local Storage** basta utilizarmos o comando `localStorage` e todo o nosso uso será através de duas funções principais: `setItem()` e `getItem()`.
+
+```javascript
+localStorage.setItem("nomeDaChave", "valor que está sendo guardado");
+```
+
+Como pode ser visto acima, o **Local Storage** funciona no modo **chave e valor**, similar as nossas variáveis, e utilizamos a função `setItem` para armazenar o valor com a chave informada. Assim como as variáveis, a chave não pode ter espaços, caracteres especiais ou acentos (simplicidade). 
+
+**Importante ¹**: A chave também não pode ser repetida, na verdade se uma chave já existente for informada o valor da anterior será perdido. 
+
+**Importante ²**: As chaves são separadas por `URL` do site, porém, como usamos o `live-server` para auxiliar nossos desenvolvimentos todas as nossas `URLs` acabam ficando iguais: `http://127.0.0.1:5500`. Por isso tome cuidado, pois se estiver desenvolvendo dois projetos ao mesmo tempo e utilizar chaves iguais, um vai sobrescrever o valor do outro.
+
+Para conferirmos se ficou tudo certo, podemos abrir a área de inspeção do navegador, ir na aba **Application**, achar a área de **Storage**, expandir o **Local Storage** e escolher a nossa `URL` local.
+
+<P align="center">
+    <img src="assets/local_storage_1.png">
+</p>
+
+Agora que já conferimos e nossa chave está lá, podemos usar a outra função `getItem()` para recuperar o valor armazenado sempre que for necessário.
+
+```javascript
+// Para obter o valor armazenado, basta informar a chave
+var valor = localStorage.getItem("nomeDaChave");
+```
+
+### Referências
+1. https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage
+
+## Salvando objetos
+
+...
