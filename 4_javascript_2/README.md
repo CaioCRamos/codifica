@@ -29,6 +29,8 @@ Para mais detalhes sobre o DOM [clique aqui](https://developer.mozilla.org/pt-BR
 * [Adicionar elementos complexos na tela](#adicionar-elementos-complexos-na-tela)
 * [Salvando as informações](#salvando-as-informações)
 * [Salvando objetos](#salvando-objetos)
+    * [JSON](#json)
+    * [Alguns cuidados](#alguns-cuidados)
 
 ## Acessar a página
 Para acessar a página como um todo utilizamos o comando `document` no Javascript.
@@ -208,7 +210,7 @@ Existe uma forma de "roubar" e conseguir utilizar o **Local Storage** mesmo para
 ### JSON
 `JSON` é uma sigla para **Javascript Object Notation** ou simplesmente **Notação de Objetos do Javascript**. É uma forma de escrever objetos complexos, mas como texto, pois todo `JSON` sempre é uma `string`.
 
-Sendo assim, o valor da variável carro como JSON é:
+Sendo assim, o valor da variável `carro` como `JSON` é:
 
 ```json
 {
@@ -238,10 +240,11 @@ var carro = {
     preco: 1000000.99
 };
 
+// Converte o objeto em JSON e salva no Local Storage em passos separados
 var carroJSON = JSON.stringify(carro);
 localStorage.setItem("objeto", carroJSON);
 
-// Ou simplesmente
+// Ou simplesmente converte e salva na mesma linha
 localStorage.setItem("objeto", JSON.stringify(carro));
 ```
 
@@ -251,20 +254,55 @@ Conferindo no inspetor de elementos do navegador as coisas parecem estar fazendo
     <img src="assets/local_storage_3.png">
 </p>
 
-Da mesma forma que **transformamos** o nosso `objeto complexo` em `JSON` para gravar no **Local Storage**, precisamos transformá-lo de volta em `objeto complexo` quando fizermos a leitura através do `getItem()`. Para fazer isso utilizaremos a função `parse()` do `JSON`.
+Da mesma forma que **transformamos** o nosso `objeto complexo` em `JSON` para gravar no **Local Storage**, precisamos transformá-lo de volta em `objeto complexo` quando fizermos a leitura do `Local Storage` através do `getItem()`. Para fazer isso utilizaremos a função `parse()` do `JSON`.
 
 ```javascript
+// Obtém o valor armazenado no Local Storage
 var carroJSON = localStorage.getItem("objeto");
 console.log(carroJSON);
 
+// Converte o valor obtido de JSON para Objeto
 var carro = JSON.parse(carroJSON);
 console.log(carro);
 ```
 
-Utilizei o console.log() para imprimir os valores das duas variáveis e notarmos as diferenças: 
+Utilizei o `console.log()` para imprimir os valores das duas variáveis e notarmos as diferenças. Vejam que na primeira linha todo o conteúdo está como `string` e na segunda temos o nosso `objeto carro` de volta.
 
 <P align="center">
     <img src="assets/local_storage_4.png">
 </p>
 
-...
+
+```javascript
+// Podemos simplesmente obter o valor do Local Storage e 
+// já converter para objeto em uma mesma linha
+var carro = JSON.parse(localStorage.getItem("objeto"));
+console.log(carro);
+```
+
+### Alguns cuidados
+Quando tentamos obter uma chave do **Local Storage** e a mesma não existe, **nenhum erro ocorre**, porém ao convertermos para objeto o resultado será `null`, pois não há o que ser convertido.
+
+```javascript
+var carro = JSON.parse(localStorage.getItem("objeto"));
+console.log(carro);
+```
+
+Se não houver a chave `objeto` no **Local Storage**, nenhum problema ocorrerá e o resultado será:
+
+<P align="center">
+    <img src="assets/local_storage_5.png">
+</p>
+
+Porém se tentarmos ler alguma propriedade deste objeto teremos um erro:
+
+```javascript
+var carro = JSON.parse(localStorage.getItem("objeto"));
+console.log(carro.ano);
+```
+
+Neste caso, como a variável `carro` tem o valor `null` a propriedade `ano` não existe, veremos o erro mostrado abaixo:
+
+<P align="center">
+    <img src="assets/local_storage_6.png">
+</p>
