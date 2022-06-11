@@ -163,6 +163,8 @@ Como pode ser visto acima, o **Local Storage** funciona no modo **chave e valor*
 
 **Importante ²**: As chaves são separadas por `URL` do site, porém, como usamos o `live-server` para auxiliar nossos desenvolvimentos todas as nossas `URLs` acabam ficando iguais: `http://127.0.0.1:5500`. Por isso tome cuidado, pois se estiver desenvolvendo dois projetos ao mesmo tempo e utilizar chaves iguais, um vai sobrescrever o valor do outro.
 
+**Importante ³**: As chaves ficam disponíveis para todas as páginas dentro de um mesmo site.
+
 Para conferirmos se ficou tudo certo, podemos abrir a área de inspeção do navegador, ir na aba **Application**, achar a área de **Storage**, expandir o **Local Storage** e escolher a nossa `URL` local.
 
 <P align="center">
@@ -180,5 +182,89 @@ var valor = localStorage.getItem("nomeDaChave");
 1. https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage
 
 ## Salvando objetos
+Como vimos acima o **Local Storage** só guarda `string`, mas e se o conteúdo que queremos armazenar não for uma `string`, e se for um `array` ou um `objeto complexo`?
+
+Veja o seguinte exemplo:
+
+```javascript
+var carro = {
+    ano: 2022,
+    modelo: "Super Modelo",
+    marca: "Uma bem cara",
+    preco: 1000000.99
+};
+
+localStorage.setItem("objeto", carro);
+```
+
+Ao executarmos o código acima veremos que o resultado não foi bem o que a gente esperava. Isso acontece porque a minha variável `carro` é um `objeto complexo` e não uma `string`.
+
+<P align="center">
+    <img src="assets/local_storage_2.png">
+</p>
+
+Existe uma forma de "roubar" e conseguir utilizar o **Local Storage** mesmo para `arrays` ou `objetos complexos`, estou falando do `JSON`.
+
+### JSON
+`JSON` é uma sigla para **Javascript Object Notation** ou simplesmente **Notação de Objetos do Javascript**. É uma forma de escrever objetos complexos, mas como texto, pois todo `JSON` sempre é uma `string`.
+
+Sendo assim, o valor da variável carro como JSON é:
+
+```json
+{
+    "ano": 2022,
+    "modelo": "Super Modelo",
+    "marca": "Uma bem cara",
+    "preco": 1000000.99
+}
+```
+
+Perceba que a estrutura é a mesma utilizada no Javascript, com a única diferença que **as propriedades estão todas entre aspas**.
+
+E para converter qualquer objeto complexo ou array em JSON basta utilizarmos o comando `stringify()`:
+
+```javascript
+// O comando stringify transforma o que for passado como parâmetro em uma string no formato JSON.
+var carroJSON = JSON.stringify(carro);
+```
+
+Deste modo, podemos substituir a nossa solução de escrita no `Local Storage` por:
+
+```javascript
+var carro = {
+    ano: 2022,
+    modelo: "Super Modelo",
+    marca: "Uma bem cara",
+    preco: 1000000.99
+};
+
+var carroJSON = JSON.stringify(carro);
+localStorage.setItem("objeto", carroJSON);
+
+// Ou simplesmente
+localStorage.setItem("objeto", JSON.stringify(carro));
+```
+
+Conferindo no inspetor de elementos do navegador as coisas parecem estar fazendo sentido:
+
+<P align="center">
+    <img src="assets/local_storage_3.png">
+</p>
+
+Da mesma forma que **transformamos** o nosso `objeto complexo` em `JSON` para gravar no **Local Storage**, precisamos transformá-lo de volta em `objeto complexo` quando fizermos a leitura através do `getItem()`. Para fazer isso utilizaremos a função `parse()` do `JSON`.
+
+```javascript
+var carroJSON = localStorage.getItem("objeto");
+console.log(carroJSON);
+
+var carro = JSON.parse(carroJSON);
+console.log(carro);
+```
+
+Utilizei o console.log() para imprimir os valores das duas variáveis e notarmos as diferenças: 
+
+<P align="center">
+    <img src="assets/local_storage_4.png">
+</p>
 
 ...
