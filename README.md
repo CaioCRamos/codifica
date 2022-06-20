@@ -40,3 +40,5 @@ Ao longo de todo o curso aprenderemos sobre:
 ## Git e Github
 * [📝 Material de apoio](5_github/README.md)
 
+## Projeto Final 
+* [Descrição](6_projeto_final/README.md)
