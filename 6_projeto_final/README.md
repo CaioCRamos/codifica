@@ -26,19 +26,28 @@ Construir um mini e-commerce de temática livre que será composto por **no mín
 1. O projeto deve ser publicado via `Github Pages` ou qualquer outro meio.
 
 ## Avaliação e fases do projeto
-A avaliação será feita durante cada interação com os grupos, porém será feita principalmente nas 3 principais fases.
+A **avaliação será feita durante cada interação com os grupos**, porém será feita principalmente nas 3 fases principais + fase bônus.
 
-### Planejamento
+### Fase 1 - Planejamento
 A primeira etapa do projeto será o planejamento, nela os grupos devem começar a discutir e esboçar a solução que pretendem desenvolver. Vale propor esboços, escolher a temática, etc.
 
 Esta etapa deve ocorrer de preferência no primeiro dia de atividade e ao final, uma breve apresentação deve ser feita (bate-papo).
 
-### Check point de desenvolvimento
+### Fase 2 - Check point de desenvolvimento
 Após a primeira semana de desenvolvimento, os grupos devem realizar uma mini apresentação, para que seja possível avaliar o progresso, ainda um bate-papo leve, porém um pouco mais estruturado.
 
-### Apresentação
+### Fase 3 - Apresentação
 Todos os grupos terão **15 minutos** para apresentar a solução focando principalmente no funcionamento, se atentando em demonstrar os requisitos descritos acima.
 
 A demonstração de fluxos específicos ou até mesmo de trechos do código pode ser solicitada.
 
 Todo o código deve estar finalizado no `github` até o momento que as apresentações comecem e a apresentação deve ser feita utilizando a URL pública, resultado da publicação descrita em [outros requisitos](#outros-requisitos).
+
+### Fase Bônus - Código
+Tem que ser possível a avaliação da contribuição de cada um no projeto e isso pode ser feito de algumas formas:
+1. Através do Github
+    1. Via commit direto ou Pull Request
+    1. Para quem trabalha via Live Share, revesar o Host pode ser uma estratégia
+1. Via board contendo **detalhadamente** a divisão das tarefas
+
+**Importante**: grupos em que for impossível avaliar a participação dos integrantes participarão de uma fase extra, com explicação indivídual e detalhada de cada abordagem utilizada no código.
