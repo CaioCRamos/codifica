@@ -27,10 +27,15 @@ Para mais detalhes sobre o DOM [clique aqui](https://developer.mozilla.org/pt-BR
     * [Outros elementos](#outros-elementos)
 * [Adicionar elementos simples na tela](#adicionar-elementos-simples-na-tela)
 * [Adicionar elementos complexos na tela](#adicionar-elementos-complexos-na-tela)
+* [Navegando entre telas](#navegando-entre-telas)
+* [Navegando entre telas e usando form](#navegando-entre-telas-e-usando-form)
 * [Salvando as informações](#salvando-as-informações)
 * [Salvando objetos](#salvando-objetos)
     * [JSON](#json)
     * [Alguns cuidados](#alguns-cuidados)
+* [Consumindo APIs](#consumindo-apis)
+    * [Get](#get)
+    * [Post](#post)
 
 ## Acessar a página
 Para acessar a página como um todo utilizamos o comando `document` no Javascript.
@@ -148,6 +153,61 @@ alert(paragrafo.innerText);
 ...
 
 ## Adicionar elementos complexos na tela
+...
+
+## Navegando entre telas
+Realizar a navegação de uma página para outra via `Javascript` é bastante simples, utilizarmos o comando `window.location.href` e passar o caminho da próxima página.
+
+Por exemplo, no nosso site temos duas páginas: `pagina1.html` e `pagina2.html`. 
+
+```
+- projeto 
+    - pagina1.html
+    - pagina2.html
+```
+
+Ambas estão no mesmo nível e em cada uma delas existe um botão que direcionará para a outra página.
+
+```html
+<input type="button" value="Ir para página 2" onclick="navegarParaPagina2()">
+```
+
+```javascript
+function navegarParaPagina2() {
+    window.location.href = "pagina2.html";
+}
+```
+
+No exemplo acima passamos apenas o nome do arquivo `HTML` pois ambas as páginas estão no mesmo nível, porém, se as páginas estiverem em subpastas ou níveis diferentes precisaremos detalhar o caminho:
+
+```
+- projeto 
+    - pasta1
+        - pagina1.html
+    - pagina2.html
+```
+
+Agora com uma configuração de pastas um pouco diferente temos duas formas diferentes para navegar:
+
+**Página 1 para Página 2**
+```javascript
+function navegarParaPagina2() {
+    window.location.href = "../pagina2.html";
+}
+```
+
+O `../` é utilizado para voltar um nível, pois a `pagina1.html` está dentro da `pasta1` e voltando um nível estaremos na pasta `projeto` onde existe a `pagina2.html`.
+
+**Página 2 para Página 1**
+```javascript
+function navegarParaPagina1() {
+    window.location.href = "pasta1/pagina1.html";
+}
+```
+
+Neste caso a navegação pode ser feita diretamente, sem usar o `../`, pois a `pasta1` está no mesmo nível da `pagina2.html` que é onde estamos.
+
+## Navegando entre telas e usando form
 ...
 
 ## Salvando as informações
@@ -272,7 +332,6 @@ Utilizei o `console.log()` para imprimir os valores das duas variáveis e notarm
     <img src="assets/local_storage_4.png">
 </p>
 
-
 ```javascript
 // Podemos simplesmente obter o valor do Local Storage e 
 // já converter para objeto em uma mesma linha
@@ -306,3 +365,12 @@ Neste caso, como a variável `carro` tem o valor `null` a propriedade `ano` não
 <P align="center">
     <img src="assets/local_storage_6.png">
 </p>
+
+## Consumindo APIs
+...
+
+### Get
+...
+
+### Post
+...
