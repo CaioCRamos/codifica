@@ -150,10 +150,15 @@ alert(paragrafo.innerText);
 ```
 
 ## Adicionar elementos simples na tela
-...
+🎥 **Vídeos falando sobre o assunto:**
+* [Adicionar elementos simples na tela - parte 1](https://youtu.be/fL2BntEqjJ4)
+* [Adicionar elementos simples na tela - parte 2](https://youtu.be/DTOYDC0uBcI)
 
 ## Adicionar elementos complexos na tela
-...
+🎥 **Vídeos falando sobre o assunto:**
+* [Adicionar elementos complexos na tela - parte 1](https://youtu.be/BF7jy9wEKv4)
+* [Adicionar elementos complexos na tela - parte 2](https://youtu.be/5qsGXOPcX3c)
+* [Adicionar elementos complexos na tela - parte 3](https://youtu.be/7imW2afJ8Gc)
 
 ## Navegando entre telas
 Realizar a navegação de uma página para outra via `Javascript` é bastante simples, utilizarmos o comando `window.location.href` e passar o caminho da próxima página.
@@ -207,6 +212,11 @@ function navegarParaPagina1() {
 
 Neste caso a navegação pode ser feita diretamente, sem usar o `../`, pois a `pasta1` está no mesmo nível da `pagina2.html` que é onde estamos.
 
+🎥 **Vídeos falando sobre o assunto:**
+* [Navegando entre telas - parte 1](https://youtu.be/PS7n2ZIfsq4)
+* [Navegando entre telas - parte 2](https://youtu.be/rvUlQpL1Yvs)
+
+
 ## Navegando entre telas e usando form
 ...
 
@@ -240,8 +250,11 @@ Agora que já conferimos e nossa chave está lá, podemos usar a outra função 
 var valor = localStorage.getItem("nomeDaChave");
 ```
 
-### Referências
-1. https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage
+🎥 **Vídeo falando sobre o assunto:**
+* [LocalStorage - parte 1](https://youtu.be/FPqoTyicjVc)
+
+📓 **Referências**
+* https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage
 
 ## Salvando objetos
 Como vimos acima o **Local Storage** só guarda `string`, mas e se o conteúdo que queremos armazenar não for uma `string`, e se for um `array` ou um `objeto complexo`?
@@ -365,6 +378,9 @@ Neste caso, como a variável `carro` tem o valor `null` a propriedade `ano` não
 <P align="center">
     <img src="assets/local_storage_6.png">
 </p>
+
+🎥 **Vídeo falando sobre o assunto:**
+* [LocalStorage - parte 2](https://youtu.be/G_esMZEWB7o)
 
 ## Consumindo APIs
 ...
