@@ -383,10 +383,18 @@ Neste caso, como a variável `carro` tem o valor `null` a propriedade `ano` não
 * [LocalStorage - parte 2](https://youtu.be/G_esMZEWB7o)
 
 ## Consumindo APIs
-...
+
+🎥 **Vídeo falando sobre o assunto:**
+* [Consumindo APIs - parte 1](https://youtu.be/eB5vnljOsB0)
+
 
 ### Get
-...
+
+🎥 **Vídeos falando sobre o assunto:**
+* [Consumindo APIs - parte 2 - GET Promise/Then](https://youtu.be/lP9FjeTXhXQ)
+* [Consumindo APIs - parte 3 - GET Async/Await](https://youtu.be/DtNGouh9fI4)
 
 ### Post
-...
+
+🎥 **Vídeo falando sobre o assunto:**
+* [Consumindo APIs - parte 4 - POST](https://youtu.be/lQ2rhXTJXDc)
