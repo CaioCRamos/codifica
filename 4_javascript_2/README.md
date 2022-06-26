@@ -253,8 +253,8 @@ var valor = localStorage.getItem("nomeDaChave");
 🎥 **Vídeo falando sobre o assunto:**
 * [LocalStorage - parte 1](https://youtu.be/FPqoTyicjVc)
 
-📓 **Referências**
-* https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage
+📙 **Referências:**
+* [LocalStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
 
 ## Salvando objetos
 Como vimos acima o **Local Storage** só guarda `string`, mas e se o conteúdo que queremos armazenar não for uma `string`, e se for um `array` ou um `objeto complexo`?

@@ -34,8 +34,6 @@ Se fizermos um paralelo com o corpo humano, o `HTML` seria toda a nossa estrutur
   * [section](#section)
   * [footer](#footer)
   * [fieldset](#fieldset)
-  * [Referências sobre o assunto e outras tags](#referências-sobre-o-assunto-e-outras-tags)
-
 
 ## Estrutura básica de uma página
 
@@ -64,7 +62,8 @@ Se fizermos um paralelo com o corpo humano, o `HTML` seria toda a nossa estrutur
 
 Se você estiver utilizando o `VSCode` para desenvolver suas páginas, não esqueça que existe o atalho `! + enter` logo no início de um documento `HTML` em branco e essa estrutura básica será criada automáticamente.
 
-[Aqui](https://www.youtube.com/watch?v=_VSvUYVmTsg&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2) tem um vídeo bem curtinho explicando um pouco mais sobre a estrutura inicial das páginas HTML.
+🎥 **Vídeo falando sobre o assunto:**
+* [Estrutura básica](https://www.youtube.com/watch?v=_VSvUYVmTsg&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=1)
 
 ## Principais Elementos
 
@@ -84,8 +83,9 @@ Vão ficando cada vez menores e menos destacados conforme seu número aumenta.
 <h5>Sub-título 4</h5>
 <h6>Sub-título 5</h6>
 ```
-[Aqui](https://www.youtube.com/watch?v=QRjlxL4-PVQ&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2) tem um vídeo bem curtinho falando sobre os títulos e outros elementos de texto.
 
+🎥 **Vídeo falando sobre o assunto:**
+* [Elementos de texto](https://www.youtube.com/watch?v=QRjlxL4-PVQ&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2)
 
 ### Parágrafos `<p>`
 Como o próprio nome já diz é destinado para acomodar os parágrafos com textos comuns das suas páginas.  
@@ -95,8 +95,9 @@ Como o próprio nome já diz é destinado para acomodar os parágrafos com texto
   Aqui vão os textos comuns das páginas, normalmente são os conteúdos das noticias ou legendas de fotos...
 </p>
 ```
-[Aqui](https://www.youtube.com/watch?v=QRjlxL4-PVQ&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2) tem um vídeo bem curtinho falando sobre os parágrafos e outros elementos de texto.
 
+🎥 **Vídeo falando sobre o assunto:**
+* [Elementos de texto](https://www.youtube.com/watch?v=QRjlxL4-PVQ&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=2)
 
 ### Listas ordenadas `<ol>`
 Para os momentos em que queremos mostras os itens e formato de lista e a ordem deles importa.  
@@ -116,7 +117,8 @@ O código acima produzira uma lista exatamente como a lista abaixo:
 2. Item 2
 3. Item 3
 
-[Aqui](https://www.youtube.com/watch?v=FC_l7bXr8_s&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=3) tem um vídeo bem curtinho falando sobre as listas.
+🎥 **Vídeo falando sobre o assunto:**
+* [Listas](https://www.youtube.com/watch?v=FC_l7bXr8_s&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=3)
 
 ### Listas NÃO ordenadas `<ul>`
 Para os momentos em que queremos mostrar os itens da lista como tópicos.  
@@ -135,7 +137,8 @@ O código acima produzira uma lista exatamente como a lista abaixo:
 - Item 2
 - Item 3
 
-[Aqui](https://www.youtube.com/watch?v=FC_l7bXr8_s&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=3) tem um vídeo bem curtinho falando sobre as listas.
+🎥 **Vídeo falando sobre o assunto:**
+* [Listas](https://www.youtube.com/watch?v=FC_l7bXr8_s&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=3)
 
 ### Itens das listas `<li>`
 Como visto nas duas listas acima, ambas compartilham a mesma estrutura de tags para o conteúdo.  
@@ -154,7 +157,8 @@ Como visto acima, é bastante simples configurar a tag `<img>`, precisamos apena
 ***Importante***: caso seja uma imagem do computador, não esqueça de informar a extensão do arquivo juntamente com o nome e o caminho, por exemplo: `/imagens/logo.png`.
 - `alt` local onde informaremos um texto alternativo, caso a imagem não seja carregada, muito útil quando utilizamos imagens da ***Internet***, pois suas `URLs` podem ser removidas após algum tempo.
 
-[Aqui](https://www.youtube.com/watch?v=ibr1caVIsao&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=7) tem um vídeo bem curtinho falando sobre as imagens.
+🎥 **Vídeo falando sobre o assunto:**
+* [Imagens](https://www.youtube.com/watch?v=ibr1caVIsao&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=7)
 
 ### Divs `<div>`
 Apesar de parecer extremamente simples, os elementos `<div>` são fundamentais para criação de páginas elaboradas e funcionais.
@@ -209,7 +213,8 @@ Quase todos os inputs não possuem um texto explicando para que eles servem ou o
 
 Uma coisa importante sobre o elemento é a propriedade `for=""`, nela devemos informar o `id` do campo que o `label` serve como legenda, isso ficará mais claro nos tópicos a seguir.
 
-[Aqui](https://www.youtube.com/watch?v=8hrEQESqNmo&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=16) tem um vídeo bem curtinho falando sobre as legendas.
+🎥 **Vídeo falando sobre o assunto:**
+* [Labels (legendas dos inputs)](https://www.youtube.com/watch?v=8hrEQESqNmo&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=16)
 
 ### Texto simples 
 Elemento para textos simples em geral.
@@ -226,7 +231,8 @@ Elemento para que o usuário digite valores de e-mail.
 <input type="email" id="email">
 ```
 
-[Aqui](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15) tem um vídeo bem curtinho falando sobre inputs de texto.
+🎥 **Vídeo falando sobre o assunto:**
+* [Inputs de texto](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15)
 
 ### Valores relacionados a datas
 Elemento para que o usuário informe um mês.
@@ -250,7 +256,8 @@ Elemento para que o usuário informe uma data e hora.
 <input type="datetime" id="data-e-hora">
 ```
 
-[Aqui](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15) tem um vídeo bem curtinho falando sobre os inputs de data.
+🎥 **Vídeo falando sobre o assunto:**
+* [Inputs de texto](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15)
 
 ### Números `<input type="number">`
 Elemento para que o usuário informe um número.
@@ -260,7 +267,8 @@ Elemento para que o usuário informe um número.
 <input type="number" id="irmaos">
 ```
 
-[Aqui](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15) tem um vídeo bem curtinho falando sobre o input de números.
+🎥 **Vídeo falando sobre o assunto:**
+* [Inputs de texto](https://www.youtube.com/watch?v=iEjJDbmqWYU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=15)
 
 ### Única escolha `<input type="radio">`
 O elemento `radio` nos permite oferecer opções de escolha para o usuário, sem que ele precise digitar algo, apenas selecionar.
@@ -299,7 +307,8 @@ No entanto, quando temos mais do que um elemento `radio` na tela, eles se compor
 
 Perceba que cada `radio` tem sua propriedade `value`, esse é o valor real que será obtido ao selecionar de fato o elemento e será útil futuramente ao utilizar o `Javascript`.
 
-[Aqui](https://www.youtube.com/watch?v=ECJL1Oi6xzc&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=17) tem um vídeo bem curtinho falando sobre o radio.
+🎥 **Vídeo falando sobre o assunto:**
+* [Input type = "radio"](https://www.youtube.com/watch?v=ECJL1Oi6xzc&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=17)
 
 ### Múltipla Escolha `<input type="checkbox">`
 O elemento `checkbox` é outra forma de oferecer opções de escolha para o usuário, porém ele é utilizado quando as escolhas são independentes umas das outras, ou seja, o usuário pode marcar várias se quiser.
@@ -339,7 +348,8 @@ Ou em conjunto para oferecer múltiplas escolhas para o usuário:
 
 Perceba que cada `checkbox` tem sua propriedade `value`, esse é o valor real que será obtido ao marcar o elemento e será útil futuramente ao utilizar o `Javascript`.
 
-[Aqui](https://www.youtube.com/watch?v=DsQNvzAwg7E&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=19) tem um vídeo bem curtinho falando sobre o checkbox.
+🎥 **Vídeo falando sobre o assunto:**
+* [Input type = "checkbox"](https://www.youtube.com/watch?v=DsQNvzAwg7E&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=19)
 
 ### Caixa de seleção `<select>`
 Uma forma de oferecer opções para o usuário e que não é necessáriamente um `input` é o elemento `select`. Assim como o `radio`, a ideia é que o usuário tenha apenas uma opção de escolha, no entanto, essas opções ficarão escondidas dentro de uma caixa e serão mostradas apenas quando o usuário clicar no elemento.
@@ -362,7 +372,8 @@ No exemplo acima, foi incluída uma primeira opção, apenas para mostrar o text
 
 Perceba que cada `option` tem sua propriedade `value`, esse é o valor real que será obtido ao selecionar de fato uma opção e será útil futuramente ao utilizar o `Javascript`.
 
-[Aqui](https://www.youtube.com/watch?v=Cm4Xe84qoVw&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=18) tem um vídeo bem curtinho falando sobre as caixas de seleção.
+🎥 **Vídeo falando sobre o assunto:**
+* [Select](https://www.youtube.com/watch?v=Cm4Xe84qoVw&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=18)
 
 ### Botão `input<type="button">`
 Para incluir botões de ação nas nossas telas. 
@@ -375,7 +386,8 @@ Para incluir botões de ação nas nossas telas.
 <button>Clique aqui</button>
 ```
 
-[Aqui](https://www.youtube.com/watch?v=jn2aUSf0bcw&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=20) tem um vídeo bem curtinho falando sobre os botões.
+🎥 **Vídeo falando sobre o assunto:**
+* [Input type = "button"](https://www.youtube.com/watch?v=jn2aUSf0bcw&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=20)
 
 ### Formulário `<form>` e botão de envio `<input type="submit">`
 O input do tipo `submit` tem o objetivo de submeter as informações, ou seja, confirmar e enviar. 
@@ -397,8 +409,8 @@ O formulário por sua vez, é um tipo de **container**, assim como as `divs`, no
 
 *Importante: o evento `onsubmit` do `form` só é disparado **se todos** os inputs que estão dentro dele estiverem preenchidos de forma correta e respeitando suas validações.*
 
-[Aqui](https://www.youtube.com/watch?v=tYgrNDQI4YU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=21) tem um vídeo bem curtinho falando sobre os formulários e os botões de envio.
-
+🎥 **Vídeo falando sobre o assunto:**
+* [Form e Input type = "submit"](https://www.youtube.com/watch?v=tYgrNDQI4YU&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=21)
 
 ## Tags semânticas
 São marcações que agregam mais significado ao HTML ao prover uma ligação entre o conteúdo e a estrutura de documentos desse tipo.
@@ -486,7 +498,7 @@ Sempre deve ter o elemento `legend` (legenda), que serve como legenda para o agr
 </fieldset>
 ```
 
-### Referências sobre o assunto e outras tags:
-- https://www.w3schools.com/html/html5_semantic_elements.asp
-- https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065
-- https://medium.com/reprogramabr/semanticahtml5-5252b4937f0a
+📙 **Referências:**
+* [HTML 5 - Semantic elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+* [Conheça os elementos semânticos do HTML 5](https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065)
+* [Semântica HTML 5](https://medium.com/reprogramabr/semanticahtml5-5252b4937f0a)

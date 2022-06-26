@@ -37,7 +37,8 @@ O **Visual Studio Code** ou **VSCode** foi escolhido por ser gratuito, bastante 
 
 [Clique aqui](https://code.visualstudio.com/) para realizar o download e fazer instalação do **VSCode**. 
 
-E [aqui](https://youtube.com/playlist?list=PLLvkn_w48B4GALLJ0N7FbXqFMMtKGG7_p) para assistir uma playlist com várias dicas.
+🎥 **Playlist falando sobre o assunto:**
+* [Codifica - Dicas](https://youtube.com/playlist?list=PLLvkn_w48B4GALLJ0N7FbXqFMMtKGG7_p)
 
 ## Revisão de conceitos
 Esta página tem o intuito de mostrar como aplicamos no Javascript os conceitos de lógica de programação e estruturas já aprendidos.
@@ -102,7 +103,9 @@ var resultado = parseFloat(valor);
 
 Se o valor da conversão não for possível, o valor `NaN` (**not a number** ou **não é um número**) será retornado.
 
-Links de referência completa para o [parseInt](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt) e [parseFloat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat).
+📙 **Referências:**
+* [parseInt](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+* [parseFloat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 
 ### Operadores matemáticos
 ```javascript
@@ -160,8 +163,6 @@ var resultadoPositivo = (resposta == "sim") || (resposta == "N/A");
 ```
 
 ### If e Else
-[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else) para referência completa.
-
 ```javascript
 // apenas Se
 if (idade >= 18) {
@@ -195,9 +196,10 @@ if (idade >= 18) {
 }
 ```
 
-### For
-[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for) para referência completa.
+📙 **Referências:**
+* [If...else](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else)
 
+### For
 ```javascript
 // Um comando for que dará 10 voltas, 
 // começando no 0 e indo até o 9,
@@ -219,9 +221,10 @@ contador < 10
 contador ++
 ```
 
-### While
-[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while) para referência completa.
+📙 **Referências:**
+* [For](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
 
+### While
 ```javascript
 // Enquanto o valorDigitado for diferente de "sair"
 // esse comando continuará executando
@@ -229,6 +232,9 @@ while(valorDigitado != "sair") {
     // faz alguma coisa
 }
 ```
+
+📙 **Referências:**
+* [While](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while)
 
 ### Arrays
 
@@ -270,7 +276,8 @@ Para saber **quantos itens** existem no array, podemos utilizar a propriedade `l
 alert(nomes.length); // nesse caso será 4
 ```
 
-[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/array) para referência completa.
+📙 **Referências:**
+* [Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/array)
 
 #### Arrays e For
 
@@ -309,7 +316,9 @@ Nesta abordagem não nos preocupamos com a posição dos elementos, o `for` perc
 
 Assim, o `for` sempre percorrerá o array **do começo ao fim**, sem a necessidade de outras configurações.
 
-[Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of) para referência completa.
+
+📙 **Referências:**
+* [for...of](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of)
 
 ### Funções
 ...

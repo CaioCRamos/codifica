@@ -37,7 +37,6 @@ Assim como o `HTML`, o `CSS` também possui uma sintaxe própria, que por sua ve
 * [Pseudo-classes](#pseudo-classes)
   * [hover](#hover)
   * [active](#active)
-  * [Referências sobre o assunto e outras pseudo-classes](#referências-sobre-o-assunto-e-outras-pseudo-classes)
 
 ## Formas de usar o CSS
 Podemos criar o `CSS` de 3 formas diferentes para criar as nossas páginas com conteúdo e estilo.
@@ -63,7 +62,8 @@ Essa é sem dúvida a forma mais rápida e normalmente aprendemos por aqui, no e
 
 Não apenas isso, mas se por algum motivo você precisar alterar o estilo, terá que alterar em todos!
 
-[Aqui](https://www.youtube.com/watch?v=qstZ66Ebz7M&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=4) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"feio"*.
+🎥 **Vídeo falando sobre o assunto:**
+* [CSS da forma feia](https://www.youtube.com/watch?v=qstZ66Ebz7M&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=4)
 
 ### Do jeito *"mais ou menos"*
 O modo *"mais ou menos"* de trabalhar com o `CSS` busca facilitar o problema que existe no modo anterior, ou seja, aqui não fazemos os estilos de maneira duplicada para cada elemento. 
@@ -93,7 +93,8 @@ Você pode estar se perguntando:
 
 Porque todo estilo criado dentro da tag `style` pode ser aproveitado apenas por essa página, e um site por mais simples que seja dificilmente terá apenas uma página. Nesse caso, teremos que lidar com duplicações e possivelmente com modificações. 
 
-[Aqui](https://www.youtube.com/watch?v=qmQ8Y0YqQd0&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=5) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"mais ou menos"*.
+🎥 **Vídeo falando sobre o assunto:**
+* [CSS mais ou menos](https://www.youtube.com/watch?v=qmQ8Y0YqQd0&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=5)
 
 ### Do jeito ***"certo"***
 O melhor modo de trabalhar com o `CSS` é tendo **um arquivo dedicado para isso**. Assim poderemos nos beneficiar de todos os pontos anteriores, teremos estilos aplicados facilmente para todos os elementos da página e ainda poderemos compartilhar esses estilos entre páginas de um mesmo site. Mantendo assim uma identidade visual coerente e mais fácil de gerenciar.
@@ -128,8 +129,8 @@ Já a propriedade `href="estilo.css"` é onde estamos informando qual o arquivo 
 
 **Importante**: podemos linkar quantos arquivos CSS forem necessários em nossas páginas! Porém, precisamos ter cuidado para que os mesmos elementos não estejam sendo modificado nos diversos arquivos, pois isso pode ocasionar efeitos coloterais difíceis de rastrear.
 
-[Aqui](https://www.youtube.com/watch?v=lmkCqZcaKfI&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=6) tem um vídeo bem curtinho falando sobre o `CSS` do jeito *"certo"*.
-
+🎥 **Vídeo falando sobre o assunto:**
+* [CSS do jeito certo](https://www.youtube.com/watch?v=lmkCqZcaKfI&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=6)
 ## Como selecionar os elementos para aplicar o estilo?
 Considerando que você esteja utilizando o `CSS` do *"jeito certo"* ou até mesmo do jeito *"mais ou menos"*, você tem algumas possibilidades de como selecionar os elementos para aplicação do estilo.
 
@@ -442,17 +443,16 @@ Deste modo a largura e a altura final são exatamente os valores que definimos n
 
 ### Utilizando display
 
-[Aqui](https://www.youtube.com/watch?v=jSYiq5zWE0Q&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=9) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display`.
-
-[Aqui](https://www.youtube.com/watch?v=YYtQNssGf24&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=10) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `display: inline-block`.
+🎥 **Vídeos falando sobre o assunto:**
+* [Posicionamento com a propriedade display](https://www.youtube.com/watch?v=jSYiq5zWE0Q&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=9)
+* [Posicionamento com display="inline-block"](https://www.youtube.com/watch?v=YYtQNssGf24&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=10)
 
 ### Utilizando position
 
-[Aqui](https://www.youtube.com/watch?v=RteWZFit6ec&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=11) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: relative`.
-
-[Aqui](https://www.youtube.com/watch?v=hduQj65wjDk&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=12) tem um vídeo bem curtinho falando sobre posicionamento com a propriedade `position: absolute`.
-
-[Aqui](https://www.youtube.com/watch?v=H92_UpiyLYY&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=13) tem um vídeo bem curtinho falando sobre os cuidados ao utilizar `position: relative` ou `position: absolute`.
+🎥 **Vídeos falando sobre o assunto:**
+* [Posicionamento com position = "relative"](https://www.youtube.com/watch?v=RteWZFit6ec&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=11)
+* [Posicionamento position = "absolute"](https://www.youtube.com/watch?v=hduQj65wjDk&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=12)
+* [Cuidados com posicionamento absoluto ou relativo](https://www.youtube.com/watch?v=H92_UpiyLYY&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=13)
 
 ### Utilizando Flexbox
 O `flex` ou `Flexbox` é o modo mais rico e poderoso de posicionamento de elementos. Isso porque diferentemente dos descritos anteriormente que eram aplicados aos elementos que queríamos posicionar, **este é aplicado primeiramente ao container onde os elementos que queremos posicionar estão**.
@@ -660,7 +660,8 @@ Isso acontece pois normalmente a **altura** ou `height` dos elementos depende do
 }
 ```
 
-Ótima [referência](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) sobre o assunto, porém em inglês.
+📙 **Referências:**
+* [CSS Tricks - A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - ótima referência sobre o assunto, porém em inglês.
 
 ## Pseudo-classes
 As `pseudo-classes` do `CSS` são utilizadas para estilizar elementos `HTML` em momentos específicos.
@@ -686,5 +687,5 @@ O `:active` nos permite aplicar alguma estilização nos elementos no momento em
 }
 ```
 
-### Referências sobre o assunto e outras pseudo-classes
-- https://www.w3schools.com/css/css_pseudo_classes.asp
+📙 **Referências:**
+* [CSS Pseudo classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
