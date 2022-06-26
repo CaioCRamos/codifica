@@ -131,6 +131,7 @@ Já a propriedade `href="estilo.css"` é onde estamos informando qual o arquivo 
 
 🎥 **Vídeo falando sobre o assunto:**
 * [CSS do jeito certo](https://www.youtube.com/watch?v=lmkCqZcaKfI&list=PLLvkn_w48B4EvM071BukVsNYvOByRH2t-&index=6)
+
 ## Como selecionar os elementos para aplicar o estilo?
 Considerando que você esteja utilizando o `CSS` do *"jeito certo"* ou até mesmo do jeito *"mais ou menos"*, você tem algumas possibilidades de como selecionar os elementos para aplicação do estilo.
 

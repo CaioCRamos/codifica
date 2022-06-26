@@ -34,8 +34,6 @@ Ao longo de todo o curso aprenderemos sobre:
 
 ## Javascript II - Manipulando elementos
 * [📝 Material de apoio](4_javascript_2/README.md)
-<!-- * 💪 Exercícios
-    * [Adicionar elementos simples na tela](4_javascript_2/exercicios/adicionar_elementos/README.md) -->
 
 ## Git e Github
 * [📝 Material de apoio](5_github/README.md)
