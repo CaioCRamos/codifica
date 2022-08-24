@@ -10,6 +10,6 @@ Vale dizer também que a `Lógica de Programação` é agnóstica, ou seja, não
 * [Conceitos](conceitos.md)
 
 💪 Exercícios:
-* [Entrada >> Processamento >> Saída](exercicios/basicos.md)
-<!-- * [Exercícios sobre Condicionais](0_logica_de_programacao/exercicios/condicionais.md)
-* [Exercícios sobre Loops](0_logica_de_programacao/exercicios/loops.md) -->
+* [Entrada, Processamento e Saída](exercicios/basicos.md)
+<!-- * [Exercícios sobre Condicionais](0_logica_de_programacao/exercicios/condicionais.md) -->
+<!-- * [Exercícios sobre Loops](0_logica_de_programacao/exercicios/loops.md) -->
