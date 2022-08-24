@@ -1,17 +1,24 @@
-# Codifica
-
 <P align="center">
     <img src="assets/logo_base_social.jpg" width=150>
 </p>
 
+# Codifica
+
 Bem vindo ao conteúdo do curso de Desenvolvimento Web da Base Social 💻.
 
-Aqui consolidaremos toda a base teórica e referências dos conteúdos vistos em aula. Bem como exercícios e desafios.
+O curso está organizado em 3 módulos e aqui consolidaremos toda a base teórica e referências dos conteúdos vistos em aula. Bem como exercícios e desafios.
 
-Ao longo de todo o curso aprenderemos sobre:
+## Módulo 1 - Lógica de Programação
+📖 [Clique aqui](0_logica_de_programacao/README.md) para acessar o material.
 
-## Lógica de Programação
-* [📖 Teoria](0_logica_de_programacao/README.md)
+## Módulo 2 - Desenvolvimento Web
+Em breve!
+
+## Módulo 3 - Práticas Avançadas
+Em breve!
+
+<!-- ## Lógica de Programação
+* [📖 Teoria]()
 * 💪 Exercícios
     * [Exercícios Básicos](0_logica_de_programacao/exercicios/basicos.md)
     * [Exercícios sobre Condicionais](0_logica_de_programacao/exercicios/condicionais.md)
@@ -38,4 +45,4 @@ Ao longo de todo o curso aprenderemos sobre:
 ## Git e Github
 * [📝 Material de apoio](5_github/README.md)
 
-## [🏆 Projeto Final 🏆](6_projeto_final/README.md) 
+## [🏆 Projeto Final 🏆](6_projeto_final/README.md)  -->
