@@ -22,3 +22,14 @@ No final devemos mostrar a mensagem:
 ```
 Produto cadastrado com sucesso!
 ```
+
+## Exercício 4
+Você está construindo um sistema para cadastrar uma ficha para o seu personagem de RPG, para isso você vai precisar receber algumas informações com:
+1. Nome do personagem
+1. Três características e seus valores (de 0 a 10)
+
+Por exemplo de resultado pode ser:
+1. Lorde Caio
+1. Velocidade - 9
+1. Inteligência - 2
+1. Coragem - 0
