@@ -28,8 +28,8 @@ Você está construindo um sistema para cadastrar uma ficha para o seu personage
 1. Nome do personagem
 1. Três características e seus valores (de 0 a 10)
 
-Por exemplo de resultado pode ser:
-1. Lorde Caio
-1. Velocidade - 9
-1. Inteligência - 2
-1. Coragem - 0
+Um exemplo de resultado pode ser:
+- Lorde Caio
+- Velocidade - 9
+- Inteligência - 2
+- Coragem - 0
