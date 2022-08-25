@@ -24,7 +24,7 @@ Produto cadastrado com sucesso!
 ```
 
 ## Exercício 4
-Você está construindo um sistema para cadastrar uma ficha para o seu personagem de RPG, para isso você vai precisar receber algumas informações com:
+Você está construindo um sistema para cadastrar uma ficha para o seu personagem de RPG, para isso você vai precisar receber algumas informações como:
 1. Nome do personagem
 1. Três características e seus valores (de 0 a 10)
 
