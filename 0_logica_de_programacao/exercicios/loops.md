@@ -1,4 +1,4 @@
-# Exercícios de Lógica de Programação 
+# Exercícios sobre Loops
 
 ## Para (for)
 

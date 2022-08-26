@@ -1,13 +1,11 @@
-# Básicos
+# Exercícios Entrada, processamento e saída
 
-## Entrada, processamento e saída
-
-### Tabela de conteúdos
+## Tabela de conteúdos
 * [Simular e-commerce](#simular-e-commerce)
 * [Financiamento maluco](#financiamento-maluco)
 * [Anime ou série favorita](#anime-ou-série-favorita)
 
-### Simular e-commerce
+## Simular e-commerce
 Estamos trabalhando em um sistema de compras fictício. Para um cliente fazer uma compra é necessário:
 
 1. Digitar o nome do produto que está comprando
@@ -16,7 +14,7 @@ Estamos trabalhando em um sistema de compras fictício. Para um cliente fazer um
 
 Nosso programa deve mostrar uma mensagem final mostrando o valor total do pedido.
 
-### Financiamento maluco
+## Financiamento maluco
 Você está fazendo um sistema para uma loja de carros e eles tem a seguinte regra para o financiamento dos veículos:
 
 1. As pessoas podem parcelar em quantas vezes quiser
@@ -29,7 +27,7 @@ Você deve mostrar:
 1. O valor total do financiamento
 2. O valor das parcelas
 
-### Anime ou série favorita
+## Anime ou série favorita
 Você já parou pra pensar quanto tempo gastou assistindos o seu anime ou série favorita?
 
 Vamos escrever um programa que nos ajude a calcular, o usuário vai precisar informar:
