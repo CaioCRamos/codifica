@@ -12,5 +12,7 @@ Vale dizer também que a `Lógica de Programação` é agnóstica, ou seja, não
 💪 Exercícios:
 * [Fixação](exercicios/fixacao.md)
 * [Entrada, Processamento e Saída](exercicios/basicos.md)
+* [Operadores Relacionais e Lógicos](exercicios/relacionais_logicos.md)
+
 <!-- * [Exercícios sobre Condicionais](0_logica_de_programacao/exercicios/condicionais.md) -->
 <!-- * [Exercícios sobre Loops](0_logica_de_programacao/exercicios/loops.md) -->
