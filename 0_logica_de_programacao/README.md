@@ -14,4 +14,5 @@ Vale dizer também que a `Lógica de Programação` é agnóstica, ou seja, não
 * [Entrada, Processamento e Saída](exercicios/basicos.md)
 * [Operadores Relacionais e Lógicos](exercicios/relacionais_logicos.md)
 * [Exercícios sobre Condicionais](exercicios/condicionais.md)
-<!-- * [Exercícios sobre Loops](0_logica_de_programacao/exercicios/loops.md) -->
+* [Exercícios sobre Loops (FOR)](exercicios/loops_for.md)
+<!-- * [Exercícios sobre Loops (WHILE)](exercicios/loops_while.md) -->
