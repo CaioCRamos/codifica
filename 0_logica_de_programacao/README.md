@@ -8,8 +8,6 @@ Vale dizer também que a `Lógica de Programação` é agnóstica, ou seja, não
 * [Introdução](introducao.md)
 * [Conceitos Básicos](conceitos.md)
 
----
-
 ## 📊 FLuxograma
 * [Material de Apoio](fluxograma.md)
 
@@ -20,8 +18,6 @@ Vale dizer também que a `Lógica de Programação` é agnóstica, ou seja, não
 * [Exercícios sobre Condicionais](0_fluxograma/exercicios/condicionais.md)
 * [Exercícios sobre Loops (FOR)](0_fluxograma/exercicios/loops_for.md)
 * [Exercícios sobre Loops (WHILE)](0_fluxograma/exercicios/loops_while.md)
-
----
 
 ## 💵 Javascript 
 * [Material de Apoio](1_javascript/README.md)
