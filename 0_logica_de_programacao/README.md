@@ -8,7 +8,7 @@ Vale dizer também que a `Lógica de Programação` é agnóstica, ou seja, não
 * [Introdução](introducao.md)
 * [Conceitos Básicos](conceitos.md)
 
-## 📊 FLuxograma
+## 📊 Fluxograma
 * [Material de Apoio](fluxograma.md)
 
 💪 Exercícios:
