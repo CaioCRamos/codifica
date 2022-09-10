@@ -16,7 +16,7 @@ O usuário deve informar o nome e o **salário bruto** (valor descrito em cartei
 
 **Observação 1**: Algumas simplificações foram feitas nas regras do desafio.
 
-**Observação 2**: As alíquotas, bem como as faixas de valores estão desatualizadas.  
+**Observação 2**: As alíquotas, bem como as faixas de valores estão **desatualizadas**.  
 
 **Observação 3**: Recentemente (em 2022) as regras para o cálculo do INSS foram alteradas, não bastando apenas uma multiplicação simples pelo percentual de acordo com a faixa salarial, como bem explicado [neste](https://www.contabilizei.com.br/contabilidade-online/desconto-inss/) artigo.  
 Para um cálculo mais preciso, inclusive considerando outras variáveis podemos usar este outro [link](https://www.calculadorafacil.com.br/trabalhista/calculo-salario-liquido).

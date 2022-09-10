@@ -73,11 +73,12 @@ As vezes queremos mostrar mensagens para os usuários, mas para solicitar que el
 
 O valor digitado pelo usuário **deve ser armazenado** em alguma variável, se não, este valor será perdido.
 
-Outra coisa, neste ponto não existe nenhuma verificação de tipo, ou seja, o que o usuário digitar será armazenado, então se desejamos que apenas números sejam digitados por exemplo, devemos mostrar mensagens claras (mas nem sempre isso é o suficiente).
-
 ```javascript
 var resultado = prompt("Digite alguma coisa:");
 ```
+
+**Importante**: **TUDO** que é digitado no `prompt` é **texto**, ou seja, `string`!  
+E como podemos fazer para receber números ou outros tipos? Simples, podemos usar a conversão de valores mostrado [abaixo](#conversão-de-valores)!
 
 ### Concatenação
 O sinal de `+` é utilizado para realizar concatenações.
