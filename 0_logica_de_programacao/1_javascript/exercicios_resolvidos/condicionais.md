@@ -26,9 +26,37 @@ var media = (nota1 + nota2 + nota3 + nota4) / 4;
 alert("Sua média foi " + media);
 
 if (media >= 7) {
-    alert("E você está aprovado =)");
+    alert("Você está aprovado =)");
 } else {
-    alert("E você foi reprovado =(");
+    alert("Você foi reprovado =(");
+}
+```
+
+### Para deixar mais interessante
+Considere que o aluno também pode ficar de recuperação.
+
+Critérios:
+1. Média maior ou igual a 7 = **aprovado**
+2. Entre maior ou igual a 5 e menor que 7 = **recuperação**
+2. Média menor que 5 = **reprovado**
+
+### ✔️ Resolução ✔️
+```javascript
+var nota1 = parseFloat(prompt("Digite a primeira nota"));
+var nota2 = parseFloat(prompt("Digite a segunda nota"));
+var nota3 = parseFloat(prompt("Digite a terceira nota"));
+var nota4 = parseFloat(prompt("Digite a quarta nota"));
+
+var media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+alert("Sua média foi " + media);
+
+if (media >= 7) {
+    alert("Você está aprovado =)");
+} else if (media >= 5) {
+    alert("Você está mais ou menos");
+} else {
+    alert("Você foi reprovado =(");
 }
 ```
 
@@ -48,6 +76,28 @@ var email = prompt("Digite seu email para entrar");
 var senha = prompt("Digite sua senha");
 
 if (email === emailCorreto && senha === senhaCorreta) {
+    alert("Seja bem vindo!");
+} else {
+    alert("Email ou senha incorretos");
+}
+```
+
+### Para deixar mais interessante
+O que acontece se o usuário digitar o e-mail com alguma letra maiúscula? Tipo: `Aluno@basesocial.org` ou `ALUNO@BASESOCIAL.ORG`, vai funcionar? Deveria funcionar?
+
+Existem casos em que não importa como está escrito, maiúsculo, minúsculo ou misturado, só precisa estar escrito certo. Esse é o caso do `e-mail`, já a `senha` é diferente, precisa estar escrito exatamente como determinado para funcionar.
+
+Garanta que seu código funciona para o `e-mail` escrito de qualquer forma, desde que esteja correto.
+
+### ✔️ Resolução ✔️
+```javascript
+var emailCorreto = "aluno@basesocial.org";
+var senhaCorreta = "base@2022";
+
+var email = prompt("Digite seu email para entrar");
+var senha = prompt("Digite sua senha");
+
+if (email.toLowerCase() === emailCorreto && senha === senhaCorreta) {
     alert("Seja bem vindo!");
 } else {
     alert("Email ou senha incorretos");
