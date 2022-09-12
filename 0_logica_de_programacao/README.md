@@ -24,7 +24,7 @@ Vale dizer também que a `Lógica de Programação` é agnóstica, ou seja, não
 
 💪 Exercícios:
 * [Entrada, Processamento e Saída](1_javascript/exercicios/basicos.md)
-<!-- * [Exercícios sobre Condicionais](1_javascript/exercicios/condicionais.md) -->
+* [Exercícios sobre Condicionais](1_javascript/exercicios/condicionais.md)
 <!-- * [Exercícios sobre Loops](1_javascript/exercicios/loops.md) -->
 
 <!-- 💀 Desafios -->
