@@ -9,40 +9,15 @@ Bem vindo ao conteúdo do curso de Desenvolvimento Web da Base Social 💻.
 O curso está organizado em 3 módulos e aqui consolidaremos toda a base teórica e referências dos conteúdos vistos em aula. Bem como exercícios e desafios.
 
 ## Módulo 1 - Lógica de Programação
-📖 [Clique aqui](0_logica_de_programacao/README.md) para acessar o material.
+📖 [Clique aqui](./0_logica_de_programacao/README.md) para acessar o material.
 
 ## Módulo 2 - Desenvolvimento Web
-Em breve!
+📖 [Clique aqui](./1_desenvolvimento_web/README.md) para acessar o material.
 
 ## Módulo 3 - Práticas Avançadas
 Em breve!
 
-<!-- ## Lógica de Programação
-* [📖 Teoria]()
-* 💪 Exercícios
-    * [Exercícios Básicos](0_logica_de_programacao/exercicios/basicos.md)
-    * [Exercícios sobre Condicionais](0_logica_de_programacao/exercicios/condicionais.md)
-    * [Exercícios sobre Loops](0_logica_de_programacao/exercicios/loops.md)
+<!-- ## Git e Github -->
+<!-- * [📝 Material de apoio](5_github/README.md) -->
 
-## Javascript I - Lógica na Prática
-* [📝 Material de apoio](1_javascript_1/README.md)
-* 💪 Exercícios resolvidos
-    * [Exercícios Básicos](1_javascript_1/exercicios/basicos.md)
-    * [Exercícios sobre Condicionais](1_javascript_1/exercicios/condicionais.md)
-    * [Exercícios sobre Loops](1_javascript_1/exercicios/loops.md)
-* 💀 Desafios
-    * [Salário Líquido](1_javascript_1/desafios/salario_liquido.md)
-    * [Média e aprovação 2.0](1_javascript_1/desafios/media_e_aprovacao_v2.md)
-    * [Valores contendo "a"](1_javascript_1/desafios/valores_contendo_a.md)
-    * [De trás pra frente](1_javascript_1/desafios/de_tras_pra_frente.md)
-
-## HTML e CSS
-* 📝 Materiais de apoio sobre [HTML](2_html/README.md) e [CSS](3_css/README.md)
-
-## Javascript II - Manipulando elementos
-* [📝 Material de apoio](4_javascript_2/README.md)
-
-## Git e Github
-* [📝 Material de apoio](5_github/README.md)
-
-## [🏆 Projeto Final 🏆](6_projeto_final/README.md)  -->
+<!-- ## [🏆 Projeto Final 🏆](6_projeto_final/README.md)  --> -->
