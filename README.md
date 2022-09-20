@@ -20,4 +20,4 @@ Em breve!
 <!-- ## Git e Github -->
 <!-- * [📝 Material de apoio](5_github/README.md) -->
 
-<!-- ## [🏆 Projeto Final 🏆](6_projeto_final/README.md)  --> -->
+<!-- ## [🏆 Projeto Final 🏆](6_projeto_final/README.md)  --> 
