@@ -5,4 +5,4 @@ Neste módulo estudaremos sobre criação de Páginas e Sites. Aprenderemos como
 ## 📖 Material Teórico:
 * [HTML](./0_html/README.md)
 * [CSS](./1_css/README.md)
-<!-- * [Javascript](./2_javascript/README.md) ou `JS` para os íntimos -->
+* [Javascript](./2_javascript/README.md)
