@@ -14,9 +14,6 @@ O curso está organizado em 3 módulos e aqui consolidaremos toda a base teóric
 ## Módulo 2 - Desenvolvimento Web
 📖 [Clique aqui](./1_desenvolvimento_web/README.md) para acessar o material.
 
-## Módulo 3 - Práticas Avançadas
-Em breve!
-
 ## Git e Github
 📖 [Clique aqui](./2_github/README.md) para acessar o material.
 
