@@ -34,6 +34,7 @@ Para mais detalhes sobre o DOM [clique aqui](https://developer.mozilla.org/pt-BR
     * [JSON](#json)
     * [Alguns cuidados](#alguns-cuidados)
 * [Consumindo APIs](#consumindo-apis)
+    * [O que são APIs](#o-que-são-apis)
     * [Get](#get)
     * [Post](#post)
 
@@ -384,9 +385,25 @@ Neste caso, como a variável `carro` tem o valor `null` a propriedade `ano` não
 
 ## Consumindo APIs
 
+### O que são APIs
+*Application Programming Interface* ou *Interface de Programação de Aplicações*.
+
+O propósito das APIs é o de simplificar o desenvolvimento de programas e aplicações, através da abstração dos diversos elementos que compõem um software. Isso permite que o desenvolvedor não precise saber detalhadamente a implementação de todas as partes que compõem um sistema, mas sim, precisará saber como utilizar os serviços fornecidos pelas APIs de seu interesse e como se dará a interação destas com os outros elementos de seu software. ([Wikipédia](https://pt.wikipedia.org/wiki/Interface_de_programação_de_aplicações))
+
+Na web as APIs são normalmente utilizadas para que o **Backend** exponha as funcionalidades que o **Frontend** vai utilizar/consumir. Por exemplo, eu tenho uma base de dados com 10 mil fotos de cachorros fofinhos, eu posso construir uma API que permita a quem utilizá-la consultar e baixar essas fotos, de repente filtrando por raça ou tamanho e por aí vai.
+
+A utilização destas APIs é controlada por quem as construiu, algumas são abertas para uso, outras necessitam de pagamentos, cadastros ou chaves específicas. Essas informações, assim como outras instruções de uso são encontradas nas **documentações das APIs**.
+
+📙 Algumas APIs abertas para utilização:
+* [Open Movies Database](https://www.omdbapi.com/) - API sobre filmes, precisa da criação de uma chave para utilizar, por [exemplo](https://www.omdbapi.com/?t=Batman+begins&apikey=c2e38fee).
+* [COVID 19 API](https://covid19api.com/) - API com dados sobre a COVID no mundo.
+* [NASA Open APIs](https://api.nasa.gov/index.html) - Conjunto de APIs da NASA.
+* [Dog API](https://dog.ceo/dog-api/documentation/random) - API com imagens e dados sobre doguinhos.
+* [Cats Facts API](https://documenter.getpostman.com/view/1946054/S11HvKSz#a329cc1e-b51b-4ed6-a1b8-d57dcabff67c) - API com curiosidades sobre gatos
+* [Link com algumas APIs abertas de temas variados](https://apipheny.io/free-api/)
+
 🎥 **Vídeo falando sobre o assunto:**
 * [Consumindo APIs - parte 1](https://youtu.be/eB5vnljOsB0)
-
 
 ### Get
 
