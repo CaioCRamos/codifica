@@ -17,4 +17,5 @@ O curso está organizado em 3 módulos e aqui consolidaremos toda a base teóric
 ## Git e Github
 📖 [Clique aqui](./2_github/README.md) para acessar o material.
 
-<!-- ## [🏆 Projeto Final 🏆](6_projeto_final/README.md)  --> 
+## 🏆 Projeto Final 🏆
+[Clique aqui](./3_projeto_final/README.md) para acessar o material.
