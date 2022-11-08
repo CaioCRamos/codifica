@@ -10,7 +10,7 @@ Construir um mini e-commerce de temática livre que será composto por **no mín
 
 ### Login
 1. Deve haver pelo menos 2 usuários disponíveis para login
-1. Login deverá ser feito via `API` (será disponibilizada)
+1. Login deverá ser feito via [`API` (ver documentação)](https://github.com/CaioCRamos/codifica-demo-api)
 
 ### Listagem de produtos
 1. Produtos devem ter **no mínimo** `Nome`, `Preço` e `Imagem`;
